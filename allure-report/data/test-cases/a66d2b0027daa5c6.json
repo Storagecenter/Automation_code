@@ -1,0 +1,175 @@
+{
+  "uid" : "a66d2b0027daa5c6",
+  "name" : "should login with valid credentials",
+  "fullName" : "My Login application.should login with valid credentials",
+  "historyId" : "2331dff7006a6d7f41269074dc578687",
+  "time" : {
+    "start" : 1601193885169,
+    "stop" : 1601193910082,
+    "duration" : 24913
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Cannot read property 'getText' of null",
+  "statusTrace" : "TypeError: Cannot read property 'getText' of null\n                    at LoginPage.getallprotofoil (C:\\Users\\hp\\Pictures\\Automation Assesment\\node_modules\\.bin\\test\\pageobjects\\home.page.js:32:17)\n                    at Context.<anonymous> (C:\\Users\\hp\\Pictures\\Automation Assesment\\node_modules\\.bin\\test\\specs\\example.e2e.js:9:13)\n                    at Context.executeSync (C:\\Users\\hp\\Pictures\\Automation Assesment\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\hp\\Pictures\\Automation Assesment\\node_modules\\@wdio\\sync\\build\\index.js:80:70",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Cannot read property 'getText' of null",
+    "statusTrace" : "TypeError: Cannot read property 'getText' of null\n                    at LoginPage.getallprotofoil (C:\\Users\\hp\\Pictures\\Automation Assesment\\node_modules\\.bin\\test\\pageobjects\\home.page.js:32:17)\n                    at Context.<anonymous> (C:\\Users\\hp\\Pictures\\Automation Assesment\\node_modules\\.bin\\test\\specs\\example.e2e.js:9:13)\n                    at Context.executeSync (C:\\Users\\hp\\Pictures\\Automation Assesment\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\hp\\Pictures\\Automation Assesment\\node_modules\\@wdio\\sync\\build\\index.js:80:70",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1601193885174,
+        "stop" : 1601193909253,
+        "duration" : 24079
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "51850eb79aa8bed3",
+        "name" : "Request",
+        "source" : "51850eb79aa8bed3.json",
+        "type" : "application/json",
+        "size" : 61
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1601193909254,
+        "stop" : 1601193909534,
+        "duration" : 280
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "351d367a7954ae61",
+        "name" : "Response",
+        "source" : "351d367a7954ae61.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1601193909537,
+        "stop" : 1601193909561,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "18f44e477fb6e2e8",
+        "name" : "Request",
+        "source" : "18f44e477fb6e2e8.json",
+        "type" : "application/json",
+        "size" : 65
+      }, {
+        "uid" : "39f365b211a567bb",
+        "name" : "Response",
+        "source" : "39f365b211a567bb.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /session/:sessionId/element/bd759de5-7346-44f7-a993-ae9fb0bb52c8/attribute/href",
+      "time" : {
+        "start" : 1601193909571,
+        "stop" : 1601193909587,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1601193909588,
+        "stop" : 1601193910080,
+        "duration" : 492
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e1de62e253f4d53f",
+        "name" : "Screenshot",
+        "source" : "e1de62e253f4d53f.png",
+        "type" : "image/png",
+        "size" : 379340
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "hasContent" : true,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My Login application"
+  }, {
+    "name" : "testClass",
+    "value" : "My Login application"
+  }, {
+    "name" : "testMethod",
+    "value" : "should login with valid credentials"
+  }, {
+    "name" : "package",
+    "value" : "My Login application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-85.0.4183.121"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a66d2b0027daa5c6.json",
+  "parameterValues" : [ "chrome-85.0.4183.121" ]
+}

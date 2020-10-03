@@ -1,0 +1,461 @@
+{
+  "uid" : "71b217f222317e7d",
+  "name" : "should login with valid credentials",
+  "fullName" : "My Login application.should login with valid credentials",
+  "historyId" : "2331dff7006a6d7f41269074dc578687",
+  "time" : {
+    "start" : 1601198778435,
+    "stop" : 1601198800949,
+    "duration" : 22514
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1601198778440,
+        "stop" : 1601198800748,
+        "duration" : 22308
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2883c445cedfd417",
+        "name" : "Request",
+        "source" : "2883c445cedfd417.json",
+        "type" : "application/json",
+        "size" : 61
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1601198800749,
+        "stop" : 1601198800877,
+        "duration" : 128
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "99de52c02c625c37",
+        "name" : "Response",
+        "source" : "99de52c02c625c37.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1601198800879,
+        "stop" : 1601198800905,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "13aab847ff9dcb4d",
+        "name" : "Request",
+        "source" : "13aab847ff9dcb4d.json",
+        "type" : "application/json",
+        "size" : 87
+      }, {
+        "uid" : "2ed846b9ffa6493e",
+        "name" : "Response",
+        "source" : "2ed846b9ffa6493e.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /session/:sessionId/element/38172190-e097-4b6e-b2f1-3e25fb2be6b4/text",
+      "time" : {
+        "start" : 1601198800920,
+        "stop" : 1601198800947,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f7fb5d2d058053de",
+        "name" : "Response",
+        "source" : "f7fb5d2d058053de.json",
+        "type" : "application/json",
+        "size" : 38
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My Login application"
+  }, {
+    "name" : "testClass",
+    "value" : "My Login application"
+  }, {
+    "name" : "testMethod",
+    "value" : "should login with valid credentials"
+  }, {
+    "name" : "package",
+    "value" : "My Login application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-85.0.4183.121"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "aace139541c68a49",
+      "status" : "broken",
+      "statusDetails" : "Can't call getAttribute on element with selector \".//*[@data-toggle='tab' and @aria-expanded='true' ]//parent::li[@class='active']\" because element wasn't found",
+      "time" : {
+        "start" : 1601198727516,
+        "stop" : 1601198761319,
+        "duration" : 33803
+      }
+    }, {
+      "uid" : "ee99a9cdc6079e5a",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \".//*[@data-toggle='tab' and @aria-expanded='true' ]//parent::li[@class='active']\" because element wasn't found",
+      "time" : {
+        "start" : 1601198660317,
+        "stop" : 1601198694569,
+        "duration" : 34252
+      }
+    }, {
+      "uid" : "a215bb96a1aca398",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601198404220,
+        "stop" : 1601198426987,
+        "duration" : 22767
+      }
+    }, {
+      "uid" : "929598f05b77c78f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601198320916,
+        "stop" : 1601198344133,
+        "duration" : 23217
+      }
+    }, {
+      "uid" : "dd99471572b3686e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601197107385,
+        "stop" : 1601197130692,
+        "duration" : 23307
+      }
+    }, {
+      "uid" : "5f1872875bd5c8a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601197013053,
+        "stop" : 1601197036509,
+        "duration" : 23456
+      }
+    }, {
+      "uid" : "8afdfc72394125a1",
+      "status" : "broken",
+      "statusDetails" : "this.all_protofoil.getVisibleText is not a function",
+      "time" : {
+        "start" : 1601196760328,
+        "stop" : 1601196784490,
+        "duration" : 24162
+      }
+    }, {
+      "uid" : "82f3ba378762afbb",
+      "status" : "broken",
+      "statusDetails" : "Wrong parameters applied for getElementText\n                Usage: getElementText(elementId)\n                \n                Property Description:\n                  \"elementId\" (string): the id of an element returned in a previous call to Find Element(s)\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-get-element-text\n                ",
+      "time" : {
+        "start" : 1601196676142,
+        "stop" : 1601196699798,
+        "duration" : 23656
+      }
+    }, {
+      "uid" : "364cae7837846802",
+      "status" : "broken",
+      "statusDetails" : "Wrong parameters applied for getElementText\n                Usage: getElementText(elementId)\n                \n                Property Description:\n                  \"elementId\" (string): the id of an element returned in a previous call to Find Element(s)\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-get-element-text\n                ",
+      "time" : {
+        "start" : 1601196594699,
+        "stop" : 1601196618674,
+        "duration" : 23975
+      }
+    }, {
+      "uid" : "94d38a51cdd71039",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601196457913,
+        "stop" : 1601196481076,
+        "duration" : 23163
+      }
+    }, {
+      "uid" : "e5e19b682a7a47d9",
+      "status" : "broken",
+      "statusDetails" : "this.all_protofoil is not a function",
+      "time" : {
+        "start" : 1601196410762,
+        "stop" : 1601196434459,
+        "duration" : 23697
+      }
+    }, {
+      "uid" : "88b25a7b10d6abf8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601196267033,
+        "stop" : 1601196290235,
+        "duration" : 23202
+      }
+    }, {
+      "uid" : "e6728fd066882e05",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601196199785,
+        "stop" : 1601196222692,
+        "duration" : 22907
+      }
+    }, {
+      "uid" : "dab60e0e09d9f58c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601196106502,
+        "stop" : 1601196129797,
+        "duration" : 23295
+      }
+    }, {
+      "uid" : "8070ce5bdb18fb1c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601195899701,
+        "stop" : 1601195922424,
+        "duration" : 22723
+      }
+    }, {
+      "uid" : "59a1d397a30d43cf",
+      "status" : "broken",
+      "statusDetails" : "this.all_protofoil is not a function",
+      "time" : {
+        "start" : 1601195668469,
+        "stop" : 1601195692218,
+        "duration" : 23749
+      }
+    }, {
+      "uid" : "2947f45a350d8036",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601195595189,
+        "stop" : 1601195618203,
+        "duration" : 23014
+      }
+    }, {
+      "uid" : "9ac560d1fb4e3690",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601195518210,
+        "stop" : 1601195541676,
+        "duration" : 23466
+      }
+    }, {
+      "uid" : "3f626b5d11723772",
+      "status" : "broken",
+      "statusDetails" : "Can't call getAttribute on element with selector \".model-portfolio-navs hidden-sm hidden-xs\" because element wasn't found",
+      "time" : {
+        "start" : 1601194448551,
+        "stop" : 1601194482483,
+        "duration" : 33932
+      }
+    }, {
+      "uid" : "af99b661e0d4ee7",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \".model-portfolio-navs hidden-sm hidden-xs\" because element wasn't found",
+      "time" : {
+        "start" : 1601194380717,
+        "stop" : 1601194414645,
+        "duration" : 33928
+      }
+    }, {
+      "uid" : "4d3ed6beafec46f3",
+      "status" : "broken",
+      "statusDetails" : "this.all_protofoil.getText is not a function",
+      "time" : {
+        "start" : 1601194215077,
+        "stop" : 1601194238760,
+        "duration" : 23683
+      }
+    }, {
+      "uid" : "66d612144f598168",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601194070271,
+        "stop" : 1601194093869,
+        "duration" : 23598
+      }
+    }, {
+      "uid" : "a9d6e611a3965862",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601193985914,
+        "stop" : 1601194009445,
+        "duration" : 23531
+      }
+    }, {
+      "uid" : "a66d2b0027daa5c6",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'getText' of null",
+      "time" : {
+        "start" : 1601193885169,
+        "stop" : 1601193910082,
+        "duration" : 24913
+      }
+    }, {
+      "uid" : "e9975aac19b0f6af",
+      "status" : "broken",
+      "statusDetails" : "this.all_protofoil is not a function",
+      "time" : {
+        "start" : 1601193812006,
+        "stop" : 1601193859744,
+        "duration" : 47738
+      }
+    }, {
+      "uid" : "64c9d84b199186f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601190828544,
+        "stop" : 1601190851865,
+        "duration" : 23321
+      }
+    }, {
+      "uid" : "86283efe389c81c6",
+      "status" : "broken",
+      "statusDetails" : "hompage.getallprotofoil is not a function",
+      "time" : {
+        "start" : 1601190719188,
+        "stop" : 1601190743678,
+        "duration" : 24490
+      }
+    }, {
+      "uid" : "708af439ecc06f1f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601190486987,
+        "stop" : 1601190509993,
+        "duration" : 23006
+      }
+    }, {
+      "uid" : "53595d0c7735db52",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601190165827,
+        "stop" : 1601190189584,
+        "duration" : 23757
+      }
+    }, {
+      "uid" : "f6790923cb029c58",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601189098886,
+        "stop" : 1601189121665,
+        "duration" : 22779
+      }
+    }, {
+      "uid" : "8cc4e107b0d7e413",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601188908169,
+        "stop" : 1601188930703,
+        "duration" : 22534
+      }
+    }, {
+      "uid" : "62d75b5fab68c25",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601188711606,
+        "stop" : 1601188734090,
+        "duration" : 22484
+      }
+    }, {
+      "uid" : "8ca6427c46b93daa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601188429528,
+        "stop" : 1601188485313,
+        "duration" : 55785
+      }
+    }, {
+      "uid" : "6948d1c9a6fecff7",
+      "status" : "broken",
+      "statusDetails" : "Can't call setValue on element with selector \"#username\" because element wasn't found",
+      "time" : {
+        "start" : 1601185455077,
+        "stop" : 1601185487952,
+        "duration" : 32875
+      }
+    }, {
+      "uid" : "5e80558610b96328",
+      "status" : "broken",
+      "statusDetails" : "Can't call setValue on element with selector \"#username\" because element wasn't found",
+      "time" : {
+        "start" : 1601185388306,
+        "stop" : 1601185399869,
+        "duration" : 11563
+      }
+    }, {
+      "uid" : "907b78454e579ea3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601185102662,
+        "stop" : 1601185108520,
+        "duration" : 5858
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "71b217f222317e7d.json",
+  "parameterValues" : [ "chrome-85.0.4183.121" ]
+}

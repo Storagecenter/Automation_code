@@ -1,0 +1,2534 @@
+{
+  "uid" : "5639cf3bcc175747",
+  "name" : "It Launch domain url and verify title and the header of 3protofile text",
+  "fullName" : "Home Page.It Launch domain url and verify title and the header of 3protofile text",
+  "historyId" : "120723a8065b1712af706d94b9bba41e",
+  "time" : {
+    "start" : 1601717592564,
+    "stop" : 1601717659364,
+    "duration" : 66800
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1601717592588,
+        "stop" : 1601717652023,
+        "duration" : 59435
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "82fdb8f5334dac4b",
+        "name" : "Request",
+        "source" : "82fdb8f5334dac4b.json",
+        "type" : "application/json",
+        "size" : 61
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1601717652024,
+        "stop" : 1601717652154,
+        "duration" : 130
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "18e2ad5613ab3b4d",
+        "name" : "Response",
+        "source" : "18e2ad5613ab3b4d.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1601717652154,
+        "stop" : 1601717652173,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4f6453e07d566258",
+        "name" : "Response",
+        "source" : "4f6453e07d566258.json",
+        "type" : "application/json",
+        "size" : 49
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1601717652177,
+        "stop" : 1601717652244,
+        "duration" : 67
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "40ebf4215173eb26",
+        "name" : "Request",
+        "source" : "40ebf4215173eb26.json",
+        "type" : "application/json",
+        "size" : 66
+      }, {
+        "uid" : "81cac023195f436b",
+        "name" : "Response",
+        "source" : "81cac023195f436b.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /session/:sessionId/element/5a7fb1a2-5e46-4281-86b6-46aadc82e8cb/text",
+      "time" : {
+        "start" : 1601717652269,
+        "stop" : 1601717652354,
+        "duration" : 85
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "567024c773c4b527",
+        "name" : "Response",
+        "source" : "567024c773c4b527.json",
+        "type" : "application/json",
+        "size" : 55
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1601717652354,
+        "stop" : 1601717652420,
+        "duration" : 66
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "96f72e493a92db2d",
+        "name" : "Request",
+        "source" : "96f72e493a92db2d.json",
+        "type" : "application/json",
+        "size" : 108
+      }, {
+        "uid" : "233eb32b9f92e926",
+        "name" : "Response",
+        "source" : "233eb32b9f92e926.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /session/:sessionId/element/bd6afcd8-d88d-48d0-a143-de58d28eca04/text",
+      "time" : {
+        "start" : 1601717652426,
+        "stop" : 1601717652470,
+        "duration" : 44
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e5d7563d00a219d5",
+        "name" : "Response",
+        "source" : "e5d7563d00a219d5.json",
+        "type" : "application/json",
+        "size" : 22
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1601717652470,
+        "stop" : 1601717652524,
+        "duration" : 54
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cc1a7ff84351aad9",
+        "name" : "Request",
+        "source" : "cc1a7ff84351aad9.json",
+        "type" : "application/json",
+        "size" : 69
+      }, {
+        "uid" : "7e2a1f2df138cd60",
+        "name" : "Response",
+        "source" : "7e2a1f2df138cd60.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /session/:sessionId/element/5a7fb1a2-5e46-4281-86b6-46aadc82e8cb/text",
+      "time" : {
+        "start" : 1601717652531,
+        "stop" : 1601717652553,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f4efc477e92dcc4a",
+        "name" : "Response",
+        "source" : "f4efc477e92dcc4a.json",
+        "type" : "application/json",
+        "size" : 55
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1601717652553,
+        "stop" : 1601717652595,
+        "duration" : 42
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8a626e6abe992079",
+        "name" : "Request",
+        "source" : "8a626e6abe992079.json",
+        "type" : "application/json",
+        "size" : 69
+      }, {
+        "uid" : "ea2ccb86b3b33ade",
+        "name" : "Response",
+        "source" : "ea2ccb86b3b33ade.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/7338b074-da67-4511-980b-dd19d309301d/click",
+      "time" : {
+        "start" : 1601717652600,
+        "stop" : 1601717652705,
+        "duration" : 105
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /session/:sessionId/element/7338b074-da67-4511-980b-dd19d309301d/text",
+      "time" : {
+        "start" : 1601717652705,
+        "stop" : 1601717652732,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "de56945cb93f852",
+        "name" : "Response",
+        "source" : "de56945cb93f852.json",
+        "type" : "application/json",
+        "size" : 38
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/window/rect",
+      "time" : {
+        "start" : 1601717654743,
+        "stop" : 1601717655062,
+        "duration" : 319
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "52eea553c7372c9b",
+        "name" : "Request",
+        "source" : "52eea553c7372c9b.json",
+        "type" : "application/json",
+        "size" : 61
+      }, {
+        "uid" : "f63a30ed4546e005",
+        "name" : "Response",
+        "source" : "f63a30ed4546e005.json",
+        "type" : "application/json",
+        "size" : 57
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1601717659065,
+        "stop" : 1601717659148,
+        "duration" : 83
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "afc372603ee3342d",
+        "name" : "Request",
+        "source" : "afc372603ee3342d.json",
+        "type" : "application/json",
+        "size" : 56
+      }, {
+        "uid" : "a4ec01e57d161928",
+        "name" : "Response",
+        "source" : "a4ec01e57d161928.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /session/:sessionId/element/ad6871ac-505c-4b39-8965-0e35101e0008/text",
+      "time" : {
+        "start" : 1601717659163,
+        "stop" : 1601717659211,
+        "duration" : 48
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1841ef8d0c74b63a",
+        "name" : "Response",
+        "source" : "1841ef8d0c74b63a.json",
+        "type" : "application/json",
+        "size" : 17
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1601717659211,
+        "stop" : 1601717659252,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c29a7d1910bc7c85",
+        "name" : "Request",
+        "source" : "c29a7d1910bc7c85.json",
+        "type" : "application/json",
+        "size" : 52
+      }, {
+        "uid" : "911ac35eb3cfa01a",
+        "name" : "Response",
+        "source" : "911ac35eb3cfa01a.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/b293f64e-deae-48f4-8cde-e83a35aabb27/click",
+      "time" : {
+        "start" : 1601717659256,
+        "stop" : 1601717659336,
+        "duration" : 80
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /session/:sessionId/element/b293f64e-deae-48f4-8cde-e83a35aabb27/text",
+      "time" : {
+        "start" : 1601717659336,
+        "stop" : 1601717659363,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f789b55d54e4fdd9",
+        "name" : "Response",
+        "source" : "f789b55d54e4fdd9.json",
+        "type" : "application/json",
+        "size" : 13
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 18,
+    "hasContent" : true,
+    "attachmentsCount" : 23,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Home Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Home Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "It Launch domain url and verify title and the header of 3protofile text"
+  }, {
+    "name" : "package",
+    "value" : "Home Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-85.0.4183.121"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "af3d0fc10236a11e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601716712725,
+        "stop" : 1601716824064,
+        "duration" : 111339
+      }
+    }, {
+      "uid" : "fb7b779943847471",
+      "status" : "failed",
+      "statusDetails" : "expected '50' to equal '13.79 %'",
+      "time" : {
+        "start" : 1601716712639,
+        "stop" : 1601716903799,
+        "duration" : 191160
+      }
+    }, {
+      "uid" : "eaf2439cf0480538",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601716712347,
+        "stop" : 1601716886183,
+        "duration" : 173836
+      }
+    }, {
+      "uid" : "26724aa64b98464f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601716250146,
+        "stop" : 1601716357257,
+        "duration" : 107111
+      }
+    }, {
+      "uid" : "e5ef822a1ae83436",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601716250079,
+        "stop" : 1601716300165,
+        "duration" : 50086
+      }
+    }, {
+      "uid" : "d1f55688cb690a4a",
+      "status" : "broken",
+      "statusDetails" : "invalid element state: Element is not currently interactable and may not be manipulated\n                  (Session info: chrome=85.0.4183.121)",
+      "time" : {
+        "start" : 1601716249851,
+        "stop" : 1601716357337,
+        "duration" : 107486
+      }
+    }, {
+      "uid" : "703e4695ea6bd07a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601715776882,
+        "stop" : 1601715834074,
+        "duration" : 57192
+      }
+    }, {
+      "uid" : "ef94f256a74c4384",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601715776626,
+        "stop" : 1601715895638,
+        "duration" : 119012
+      }
+    }, {
+      "uid" : "57e2ace39e55f408",
+      "status" : "failed",
+      "statusDetails" : "expected '50' to equal '13.79 %'",
+      "time" : {
+        "start" : 1601715776356,
+        "stop" : 1601715899994,
+        "duration" : 123638
+      }
+    }, {
+      "uid" : "af923ee64fdfd937",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601715239787,
+        "stop" : 1601715271018,
+        "duration" : 31231
+      }
+    }, {
+      "uid" : "1cf0c063ec6eb856",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a data-toggle=\"tab\" href=\"#remaining-model-portfolios\">...</a> is not clickable at point (361, 21). Other element would receive the click: <div class=\"navbar-header page-scroll\">...</div>\n                  (Session info: chrome=85.0.4183.121)",
+      "time" : {
+        "start" : 1601715148913,
+        "stop" : 1601715179313,
+        "duration" : 30400
+      }
+    }, {
+      "uid" : "897ae5d513e43ff8",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a data-toggle=\"tab\" href=\"#remaining-model-portfolios\">...</a> is not clickable at point (361, 21). Other element would receive the click: <div class=\"navbar-header page-scroll\">...</div>\n                  (Session info: chrome=85.0.4183.121)",
+      "time" : {
+        "start" : 1601715002683,
+        "stop" : 1601715043778,
+        "duration" : 41095
+      }
+    }, {
+      "uid" : "40e9227868faf309",
+      "status" : "broken",
+      "statusDetails" : "element not interactable\n                  (Session info: chrome=85.0.4183.121)",
+      "time" : {
+        "start" : 1601714914942,
+        "stop" : 1601714962115,
+        "duration" : 47173
+      }
+    }, {
+      "uid" : "2f03ebed2eda0fe8",
+      "status" : "broken",
+      "statusDetails" : "Can't call scrollIntoView on element with selector \"*=15 other portfolio c\" because element wasn't found",
+      "time" : {
+        "start" : 1601714694296,
+        "stop" : 1601714767037,
+        "duration" : 72741
+      }
+    }, {
+      "uid" : "c39fe333b51cd2b7",
+      "status" : "broken",
+      "statusDetails" : "element not interactable\n                  (Session info: chrome=85.0.4183.121)",
+      "time" : {
+        "start" : 1601714449479,
+        "stop" : 1601714506577,
+        "duration" : 57098
+      }
+    }, {
+      "uid" : "366bab781b45d486",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601714265883,
+        "stop" : 1601714294822,
+        "duration" : 28939
+      }
+    }, {
+      "uid" : "ff74741e95fb4ff8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601713998258,
+        "stop" : 1601714027377,
+        "duration" : 29119
+      }
+    }, {
+      "uid" : "52f5890bfb9909ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601713897732,
+        "stop" : 1601713926516,
+        "duration" : 28784
+      }
+    }, {
+      "uid" : "f69cf9950d55461e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601713744016,
+        "stop" : 1601713764912,
+        "duration" : 20896
+      }
+    }, {
+      "uid" : "e2a397e6de132c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601713634641,
+        "stop" : 1601713652320,
+        "duration" : 17679
+      }
+    }, {
+      "uid" : "edd8083352e275f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601713428889,
+        "stop" : 1601713462614,
+        "duration" : 33725
+      }
+    }, {
+      "uid" : "ebf99c0da5444a79",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"*= 15 other portfolio c\" because element wasn't found",
+      "time" : {
+        "start" : 1601713342965,
+        "stop" : 1601713383733,
+        "duration" : 40768
+      }
+    }, {
+      "uid" : "850aab61caf014cc",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \"*= 15 other portfolio c\" because element wasn't found",
+      "time" : {
+        "start" : 1601713270372,
+        "stop" : 1601713309388,
+        "duration" : 39016
+      }
+    }, {
+      "uid" : "4cd7d82799c220d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601713184976,
+        "stop" : 1601713218502,
+        "duration" : 33526
+      }
+    }, {
+      "uid" : "4aa8c35842c28e3e",
+      "status" : "broken",
+      "statusDetails" : "x.getKeys is not a function",
+      "time" : {
+        "start" : 1601712931428,
+        "stop" : 1601712962528,
+        "duration" : 31100
+      }
+    }, {
+      "uid" : "adac90c18aef5b8e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601712807707,
+        "stop" : 1601712842631,
+        "duration" : 34924
+      }
+    }, {
+      "uid" : "cdaeadf61d49f472",
+      "status" : "broken",
+      "statusDetails" : "x.getText is not a function",
+      "time" : {
+        "start" : 1601712697071,
+        "stop" : 1601712724652,
+        "duration" : 27581
+      }
+    }, {
+      "uid" : "76f082d7aaf0ee71",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'getText' of undefined",
+      "time" : {
+        "start" : 1601712636259,
+        "stop" : 1601712655700,
+        "duration" : 19441
+      }
+    }, {
+      "uid" : "6935bc0ea3c5e5ab",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property '$' of undefined",
+      "time" : {
+        "start" : 1601712548041,
+        "stop" : 1601712584338,
+        "duration" : 36297
+      }
+    }, {
+      "uid" : "4830e914b4edf1ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601712493355,
+        "stop" : 1601712510608,
+        "duration" : 17253
+      }
+    }, {
+      "uid" : "ae1a8fcdadf8aad9",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'getText' of undefined",
+      "time" : {
+        "start" : 1601712432537,
+        "stop" : 1601712458962,
+        "duration" : 26425
+      }
+    }, {
+      "uid" : "848a04c86fc6f450",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property '$$' of undefined",
+      "time" : {
+        "start" : 1601712374963,
+        "stop" : 1601712402935,
+        "duration" : 27972
+      }
+    }, {
+      "uid" : "b7ebf4c60730cfe4",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property '$' of undefined",
+      "time" : {
+        "start" : 1601712298618,
+        "stop" : 1601712325355,
+        "duration" : 26737
+      }
+    }, {
+      "uid" : "a60c90bebe57e3c9",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property '$$' of undefined",
+      "time" : {
+        "start" : 1601712251558,
+        "stop" : 1601712282308,
+        "duration" : 30750
+      }
+    }, {
+      "uid" : "b482bd89fa5fbff6",
+      "status" : "broken",
+      "statusDetails" : "no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=85.0.4183.121)",
+      "time" : {
+        "start" : 1601712232958,
+        "stop" : 1601712238901,
+        "duration" : 5943
+      }
+    }, {
+      "uid" : "e1372636036cfb3c",
+      "status" : "broken",
+      "statusDetails" : "x.$$ is not a function",
+      "time" : {
+        "start" : 1601711907708,
+        "stop" : 1601711938180,
+        "duration" : 30472
+      }
+    }, {
+      "uid" : "33146f05bde7f5db",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property '$' of undefined",
+      "time" : {
+        "start" : 1601711842704,
+        "stop" : 1601711874361,
+        "duration" : 31657
+      }
+    }, {
+      "uid" : "9c807f10c0a94771",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property '$' of undefined",
+      "time" : {
+        "start" : 1601711793809,
+        "stop" : 1601711820723,
+        "duration" : 26914
+      }
+    }, {
+      "uid" : "b386fb308d48fa3c",
+      "status" : "broken",
+      "statusDetails" : "invalid selector: Unable to locate an element with the xpath expression //a[@data-toggle='tab' because of the following error:\n                SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//a[@data-toggle='tab'' is not a valid XPath expression.\n                  (Session info: chrome=85.0.4183.121)",
+      "time" : {
+        "start" : 1601711416304,
+        "stop" : 1601711438806,
+        "duration" : 22502
+      }
+    }, {
+      "uid" : "b1daf5a4c13604d0",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \"//a[@data-toggle='tab' and @aria-expanded='false']\" because element wasn't found",
+      "time" : {
+        "start" : 1601711306720,
+        "stop" : 1601711339710,
+        "duration" : 32990
+      }
+    }, {
+      "uid" : "da2f4ef2e3fa0a17",
+      "status" : "broken",
+      "statusDetails" : "tabname.forEach is not a function",
+      "time" : {
+        "start" : 1601711008732,
+        "stop" : 1601711042022,
+        "duration" : 33290
+      }
+    }, {
+      "uid" : "28f2367199f7ee6b",
+      "status" : "broken",
+      "statusDetails" : "tabname.forEach is not a function",
+      "time" : {
+        "start" : 1601710812699,
+        "stop" : 1601710840006,
+        "duration" : 27307
+      }
+    }, {
+      "uid" : "edc9211782c0cc67",
+      "status" : "broken",
+      "statusDetails" : "tabname.$ is not a function",
+      "time" : {
+        "start" : 1601710749293,
+        "stop" : 1601710785734,
+        "duration" : 36441
+      }
+    }, {
+      "uid" : "8e449d7496c7f9db",
+      "status" : "broken",
+      "statusDetails" : "Can't call $ on element with selector \"model-portfolio-navs hidden-sm hidden-xs\" because element wasn't found",
+      "time" : {
+        "start" : 1601710344152,
+        "stop" : 1601710375948,
+        "duration" : 31796
+      }
+    }, {
+      "uid" : "f2012069546eeeae",
+      "status" : "broken",
+      "statusDetails" : "Can't call $$ on element with selector \"model-portfolio-navs hidden-sm hidden-xs\" because element wasn't found",
+      "time" : {
+        "start" : 1601710213719,
+        "stop" : 1601710255627,
+        "duration" : 41908
+      }
+    }, {
+      "uid" : "a7ef84e0acf5a8af",
+      "status" : "broken",
+      "statusDetails" : "Can't call $$ on element with selector \".model-portfolio-navs hidden-sm hidden-xs\" because element wasn't found",
+      "time" : {
+        "start" : 1601710128970,
+        "stop" : 1601710167002,
+        "duration" : 38032
+      }
+    }, {
+      "uid" : "1dd5db1f08626f96",
+      "status" : "broken",
+      "statusDetails" : "tabname.forEach is not a function",
+      "time" : {
+        "start" : 1601709594042,
+        "stop" : 1601709629576,
+        "duration" : 35534
+      }
+    }, {
+      "uid" : "8a739fbd231f4175",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601709053322,
+        "stop" : 1601709082319,
+        "duration" : 28997
+      }
+    }, {
+      "uid" : "a5db92b0664dae5d",
+      "status" : "broken",
+      "statusDetails" : "browser.getTabIds is not a function",
+      "time" : {
+        "start" : 1601708496444,
+        "stop" : 1601708547188,
+        "duration" : 50744
+      }
+    }, {
+      "uid" : "c98d46b362da0911",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601707933342,
+        "stop" : 1601708130189,
+        "duration" : 196847
+      }
+    }, {
+      "uid" : "5f0c1bc72da26405",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601707773672,
+        "stop" : 1601707867252,
+        "duration" : 93580
+      }
+    }, {
+      "uid" : "7da13e91fca14587",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601707592195,
+        "stop" : 1601707717701,
+        "duration" : 125506
+      }
+    }, {
+      "uid" : "3f014e1d8af6febe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601706648733,
+        "stop" : 1601706815703,
+        "duration" : 166970
+      }
+    }, {
+      "uid" : "db768e7a6da47ae0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601706281943,
+        "stop" : 1601706427078,
+        "duration" : 145135
+      }
+    }, {
+      "uid" : "85b388dfaea675fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601705553676,
+        "stop" : 1601705663960,
+        "duration" : 110284
+      }
+    }, {
+      "uid" : "fb43ec25e3953c15",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601705319498,
+        "stop" : 1601705456873,
+        "duration" : 137375
+      }
+    }, {
+      "uid" : "12b66c9867e6df99",
+      "status" : "broken",
+      "statusDetails" : "invalid selector: Unable to locate an element with the xpath expression ///body/div[3]/div[2]/section[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[6]/div[1]/div[1]/div[4]/div[1]/a[1] because of the following error:\n                SyntaxError: Failed to execute 'evaluate' on 'Document': The string '///body/div[3]/div[2]/section[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[6]/div[1]/div[1]/div[4]/div[1]/a[1]' is not a valid XPath expression.\n                  (Session info: chrome=85.0.4183.121)",
+      "time" : {
+        "start" : 1601705152782,
+        "stop" : 1601705259423,
+        "duration" : 106641
+      }
+    }, {
+      "uid" : "10d3ad7f5b52b45f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601704643680,
+        "stop" : 1601704727946,
+        "duration" : 84266
+      }
+    }, {
+      "uid" : "c39a0765e65a48dc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601704365835,
+        "stop" : 1601704450529,
+        "duration" : 84694
+      }
+    }, {
+      "uid" : "fc5ffc5fe949d9f3",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a href=\"#\" class=\"modal-trigger\">...</a> is not clickable at point (1183, 9). Other element would receive the click: <a href=\"/model-portfolio\">...</a>\n                  (Session info: chrome=85.0.4183.121)",
+      "time" : {
+        "start" : 1601704133313,
+        "stop" : 1601704181171,
+        "duration" : 47858
+      }
+    }, {
+      "uid" : "f178eb2a97745407",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a href=\"#\" class=\"modal-trigger\">...</a> is not clickable at point (1183, 13). Other element would receive the click: <a href=\"/model-portfolio\">...</a>\n                  (Session info: chrome=85.0.4183.121)",
+      "time" : {
+        "start" : 1601704008992,
+        "stop" : 1601704058172,
+        "duration" : 49180
+      }
+    }, {
+      "uid" : "8955ae626d801db8",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a href=\"#\" class=\"modal-trigger\">...</a> is not clickable at point (1183, 9). Other element would receive the click: <a href=\"/model-portfolio\">...</a>\n                  (Session info: chrome=85.0.4183.121)",
+      "time" : {
+        "start" : 1601703932665,
+        "stop" : 1601703984829,
+        "duration" : 52164
+      }
+    }, {
+      "uid" : "538668fae15bacd5",
+      "status" : "failed",
+      "statusDetails" : "expected '50' to equal '13.79 %'",
+      "time" : {
+        "start" : 1601703766716,
+        "stop" : 1601703821873,
+        "duration" : 55157
+      }
+    }, {
+      "uid" : "dca1b4445338e13",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a href=\"#\" class=\"modal-trigger\">...</a> is not clickable at point (1183, 9). Other element would receive the click: <a href=\"/model-portfolio\">...</a>\n                  (Session info: chrome=85.0.4183.121)",
+      "time" : {
+        "start" : 1601703766709,
+        "stop" : 1601703817902,
+        "duration" : 51193
+      }
+    }, {
+      "uid" : "c1089d48906cdf01",
+      "status" : "failed",
+      "statusDetails" : "expected '50' to equal '13.79 %'",
+      "time" : {
+        "start" : 1601703687591,
+        "stop" : 1601703737686,
+        "duration" : 50095
+      }
+    }, {
+      "uid" : "5f8a5dbb828608da",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a href=\"#\" class=\"modal-trigger\">...</a> is not clickable at point (1183, 13). Other element would receive the click: <a href=\"/model-portfolio\">...</a>\n                  (Session info: chrome=85.0.4183.121)",
+      "time" : {
+        "start" : 1601703687500,
+        "stop" : 1601703735967,
+        "duration" : 48467
+      }
+    }, {
+      "uid" : "97f4ee51e8d16e3a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601702700604,
+        "stop" : 1601702766930,
+        "duration" : 66326
+      }
+    }, {
+      "uid" : "b340654dd5b400fc",
+      "status" : "failed",
+      "statusDetails" : "expected '50' to equal '13.79 %'",
+      "time" : {
+        "start" : 1601702699831,
+        "stop" : 1601702756147,
+        "duration" : 56316
+      }
+    }, {
+      "uid" : "c5e626c34379e13b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601701657814,
+        "stop" : 1601701695005,
+        "duration" : 37191
+      }
+    }, {
+      "uid" : "b6b8ee032dc710fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601701451111,
+        "stop" : 1601701500164,
+        "duration" : 49053
+      }
+    }, {
+      "uid" : "95e6edad7e12b3ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601700971182,
+        "stop" : 1601701076910,
+        "duration" : 105728
+      }
+    }, {
+      "uid" : "7ad2971c1e798ca5",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <div class=\"col-md-2\">...</div> is not clickable at point (959, 20). Other element would receive the click: <a href=\"/faq\">...</a>\n                  (Session info: chrome=85.0.4183.121)",
+      "time" : {
+        "start" : 1601700819384,
+        "stop" : 1601700946133,
+        "duration" : 126749
+      }
+    }, {
+      "uid" : "d9a5dcd0d23ad6d6",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <div class=\"col-md-2\">...</div> is not clickable at point (959, 20). Other element would receive the click: <a href=\"/faq\">...</a>\n                  (Session info: chrome=85.0.4183.121)",
+      "time" : {
+        "start" : 1601700513695,
+        "stop" : 1601700697122,
+        "duration" : 183427
+      }
+    }, {
+      "uid" : "efb992dc29f99b45",
+      "status" : "broken",
+      "statusDetails" : "Can't call scrollIntoView on element with selector \".model-portfolio-btn btn btn-dange btn-black btn-md invest pull-right\" because element wasn't found",
+      "time" : {
+        "start" : 1601700263463,
+        "stop" : 1601700447128,
+        "duration" : 183665
+      }
+    }, {
+      "uid" : "d627175afbce29f1",
+      "status" : "broken",
+      "statusDetails" : "Can't call scrollIntoView on element with selector \"model-portfolio-btn btn btn-dange btn-black btn-md invest pull-right\" because element wasn't found",
+      "time" : {
+        "start" : 1601699952061,
+        "stop" : 1601700147378,
+        "duration" : 195317
+      }
+    }, {
+      "uid" : "1dc81436030baf1",
+      "status" : "broken",
+      "statusDetails" : "Can't call scrollIntoView on element with selector \".model-portfolio-btn btn btn-dange btn-black btn-md invest pull-right\" because element wasn't found",
+      "time" : {
+        "start" : 1601699691174,
+        "stop" : 1601699810530,
+        "duration" : 119356
+      }
+    }, {
+      "uid" : "dc71caedf90dbf4c",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Home Page It Launch domain url and verify title and the header of 3protofile text\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (C:\\Users\\hp\\Pictures\\Automation Assesment\\node_modules\\.bin\\test\\specs\\scearnio2.js)",
+      "time" : {
+        "start" : 1601699586997,
+        "stop" : 1601699647012,
+        "duration" : 60015
+      }
+    }, {
+      "uid" : "85e195b2fb4ea44",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Home Page It Launch domain url and verify title and the header of 3protofile text\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (C:\\Users\\hp\\Pictures\\Automation Assesment\\node_modules\\.bin\\test\\specs\\scearnio2.js)",
+      "time" : {
+        "start" : 1601699513344,
+        "stop" : 1601699573361,
+        "duration" : 60017
+      }
+    }, {
+      "uid" : "cbb5b30afee52454",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \".model-portfolio-btn btn btn-dange btn-black btn-md invest pull-right\" because element wasn't found",
+      "time" : {
+        "start" : 1601699311777,
+        "stop" : 1601699361840,
+        "duration" : 50063
+      }
+    }, {
+      "uid" : "b555eb2103b6f26a",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \"=Customise\" because element wasn't found",
+      "time" : {
+        "start" : 1601699101819,
+        "stop" : 1601699151532,
+        "duration" : 49713
+      }
+    }, {
+      "uid" : "27ef7e80cc668329",
+      "status" : "failed",
+      "statusDetails" : "expected '50' to equal '13.79 %'",
+      "time" : {
+        "start" : 1601698675318,
+        "stop" : 1601698720072,
+        "duration" : 44754
+      }
+    }, {
+      "uid" : "92c4da66b64cac28",
+      "status" : "broken",
+      "statusDetails" : "value2.equals is not a function",
+      "time" : {
+        "start" : 1601698503366,
+        "stop" : 1601698543540,
+        "duration" : 40174
+      }
+    }, {
+      "uid" : "be380fc85daad8e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601698161077,
+        "stop" : 1601698217581,
+        "duration" : 56504
+      }
+    }, {
+      "uid" : "bbc67feda87b041b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601698031101,
+        "stop" : 1601698078283,
+        "duration" : 47182
+      }
+    }, {
+      "uid" : "98320b8311a4d5fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601697716482,
+        "stop" : 1601697767206,
+        "duration" : 50724
+      }
+    }, {
+      "uid" : "2a3f54daf387f968",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601697588496,
+        "stop" : 1601697629059,
+        "duration" : 40563
+      }
+    }, {
+      "uid" : "3514b69de319e13d",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Home Page It Launch domain url and verify title and the header of 3protofile text\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (C:\\Users\\hp\\Pictures\\Automation Assesment\\node_modules\\.bin\\test\\specs\\e2e.js)",
+      "time" : {
+        "start" : 1601697330142,
+        "stop" : 1601697390165,
+        "duration" : 60023
+      }
+    }, {
+      "uid" : "598135f39e1bea83",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601696703809,
+        "stop" : 1601696738892,
+        "duration" : 35083
+      }
+    }, {
+      "uid" : "560195ddf6eaf2d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601696291817,
+        "stop" : 1601696342532,
+        "duration" : 50715
+      }
+    }, {
+      "uid" : "4e737445f9633fd2",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Home Page It Launch domain url and verify title and the header of 3protofile text\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (C:\\Users\\hp\\Pictures\\Automation Assesment\\node_modules\\.bin\\test\\specs\\e2e.js)",
+      "time" : {
+        "start" : 1601696125947,
+        "stop" : 1601696185970,
+        "duration" : 60023
+      }
+    }, {
+      "uid" : "b7987e16982d424b",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Home Page It Launch domain url and verify title and the header of 3protofile text\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (C:\\Users\\hp\\Pictures\\Automation Assesment\\node_modules\\.bin\\test\\specs\\e2e.js)",
+      "time" : {
+        "start" : 1601695909649,
+        "stop" : 1601695969670,
+        "duration" : 60021
+      }
+    }, {
+      "uid" : "f13955cf7c387c40",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Home Page It Launch domain url and verify title and the header of 3protofile text\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (C:\\Users\\hp\\Pictures\\Automation Assesment\\node_modules\\.bin\\test\\specs\\e2e.js)",
+      "time" : {
+        "start" : 1601695818175,
+        "stop" : 1601695878205,
+        "duration" : 60030
+      }
+    }, {
+      "uid" : "5163a0e198a3e9f2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601695558667,
+        "stop" : 1601695609841,
+        "duration" : 51174
+      }
+    }, {
+      "uid" : "db6e4e89bc0c3e05",
+      "status" : "broken",
+      "statusDetails" : "weatherpage.inverst_now_button.click is not a function",
+      "time" : {
+        "start" : 1601695450972,
+        "stop" : 1601695497563,
+        "duration" : 46591
+      }
+    }, {
+      "uid" : "a325d7a831039238",
+      "status" : "broken",
+      "statusDetails" : "weatherpage.inverst_now_button.isDisplayedInViewport is not a function",
+      "time" : {
+        "start" : 1601695368828,
+        "stop" : 1601695428106,
+        "duration" : 59278
+      }
+    }, {
+      "uid" : "67e8fca1a554096e",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Home Page It Launch domain url and verify title and the header of 3protofile text\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (C:\\Users\\hp\\Pictures\\Automation Assesment\\node_modules\\.bin\\test\\specs\\e2e.js)",
+      "time" : {
+        "start" : 1601695264518,
+        "stop" : 1601695324536,
+        "duration" : 60018
+      }
+    }, {
+      "uid" : "f917fa72bce382c8",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a href=\"/suggestions\" class=\"model-portfolio-btn btn btn-danger btn-md invest\">...</a> is not clickable at point (1151, 20). Other element would receive the click: <a href=\"/model-portfolio\">...</a>\n                  (Session info: chrome=85.0.4183.121)",
+      "time" : {
+        "start" : 1601695115887,
+        "stop" : 1601695161530,
+        "duration" : 45643
+      }
+    }, {
+      "uid" : "ddeb751c5e4dedd3",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a href=\"/suggestions\" class=\"model-portfolio-btn btn btn-danger btn-md invest\">...</a> is not clickable at point (1151, 20). Other element would receive the click: <a href=\"/model-portfolio\">...</a>\n                  (Session info: chrome=85.0.4183.121)",
+      "time" : {
+        "start" : 1601695021954,
+        "stop" : 1601695070297,
+        "duration" : 48343
+      }
+    }, {
+      "uid" : "1a2e01b96c37f425",
+      "status" : "broken",
+      "statusDetails" : "invalid element state: Element is not currently interactable and may not be manipulated\n                  (Session info: chrome=85.0.4183.121)",
+      "time" : {
+        "start" : 1601693435352,
+        "stop" : 1601693467962,
+        "duration" : 32610
+      }
+    }, {
+      "uid" : "593e4c764296a4bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601693363908,
+        "stop" : 1601693397294,
+        "duration" : 33386
+      }
+    }, {
+      "uid" : "432362b2c2db4ad6",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'getValue' of null",
+      "time" : {
+        "start" : 1601693307197,
+        "stop" : 1601693334076,
+        "duration" : 26879
+      }
+    }, {
+      "uid" : "a318ec25e0c3afd9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601693230904,
+        "stop" : 1601693256336,
+        "duration" : 25432
+      }
+    }, {
+      "uid" : "c08bad219948dcbe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601693178099,
+        "stop" : 1601693200281,
+        "duration" : 22182
+      }
+    }, {
+      "uid" : "60795864caede743",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601693093716,
+        "stop" : 1601693128487,
+        "duration" : 34771
+      }
+    }, {
+      "uid" : "5870261f34fff1b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601692887759,
+        "stop" : 1601692917167,
+        "duration" : 29408
+      }
+    }, {
+      "uid" : "f0ee0e34f388dfd8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601692789013,
+        "stop" : 1601692814070,
+        "duration" : 25057
+      }
+    }, {
+      "uid" : "fc6d8e94b3a9ea8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601692642681,
+        "stop" : 1601692671031,
+        "duration" : 28350
+      }
+    }, {
+      "uid" : "223f059cf19cd5ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601692502813,
+        "stop" : 1601692535730,
+        "duration" : 32917
+      }
+    }, {
+      "uid" : "777d51d359aeea3c",
+      "status" : "broken",
+      "statusDetails" : "elem.scrollIntoView is not a function",
+      "time" : {
+        "start" : 1601692390506,
+        "stop" : 1601692425882,
+        "duration" : 35376
+      }
+    }, {
+      "uid" : "ec1b257cf442f006",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a data-id=\"1\" class=\"model-portfolio-btn btn btn-dange btn-black btn-md invest pull-right\">...</a> is not clickable at point (956, 20). Other element would receive the click: <a href=\"/faq\">...</a>\n                  (Session info: chrome=85.0.4183.121)",
+      "time" : {
+        "start" : 1601692268292,
+        "stop" : 1601692304949,
+        "duration" : 36657
+      }
+    }, {
+      "uid" : "6ae1fe0d181f5f3a",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a data-id=\"1\" class=\"model-portfolio-btn btn btn-dange btn-black btn-md invest pull-right\">...</a> is not clickable at point (956, 20). Other element would receive the click: <a href=\"/faq\">...</a>\n                  (Session info: chrome=85.0.4183.121)",
+      "time" : {
+        "start" : 1601692202227,
+        "stop" : 1601692226883,
+        "duration" : 24656
+      }
+    }, {
+      "uid" : "e7bafd0d7ca890f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601691850850,
+        "stop" : 1601691882334,
+        "duration" : 31484
+      }
+    }, {
+      "uid" : "add29e6b635dc519",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601691446360,
+        "stop" : 1601691470255,
+        "duration" : 23895
+      }
+    }, {
+      "uid" : "577e303a0d0c8c69",
+      "status" : "broken",
+      "statusDetails" : "elem.getValue(...).then is not a function",
+      "time" : {
+        "start" : 1601691363704,
+        "stop" : 1601691390950,
+        "duration" : 27246
+      }
+    }, {
+      "uid" : "7261290595376a11",
+      "status" : "broken",
+      "statusDetails" : "elem.buttonDown is not a function",
+      "time" : {
+        "start" : 1601664568968,
+        "stop" : 1601664589469,
+        "duration" : 20501
+      }
+    }, {
+      "uid" : "aefbf2f62cae9124",
+      "status" : "broken",
+      "statusDetails" : "move target out of bounds\n                  (Session info: chrome=85.0.4183.121)",
+      "time" : {
+        "start" : 1601664301989,
+        "stop" : 1601664328183,
+        "duration" : 26194
+      }
+    }, {
+      "uid" : "aa24e16263f6e22f",
+      "status" : "broken",
+      "statusDetails" : "elem.val is not a function",
+      "time" : {
+        "start" : 1601664214439,
+        "stop" : 1601664237958,
+        "duration" : 23519
+      }
+    }, {
+      "uid" : "490dfe962ebd6476",
+      "status" : "broken",
+      "statusDetails" : "browser.moveToObject is not a function",
+      "time" : {
+        "start" : 1601663440317,
+        "stop" : 1601663466726,
+        "duration" : 26409
+      }
+    }, {
+      "uid" : "7d18be8de9eb87e6",
+      "status" : "broken",
+      "statusDetails" : "browser.moveToObject is not a function",
+      "time" : {
+        "start" : 1601663180409,
+        "stop" : 1601663203584,
+        "duration" : 23175
+      }
+    }, {
+      "uid" : "c71509f963918d75",
+      "status" : "broken",
+      "statusDetails" : "browser.setValue is not a function",
+      "time" : {
+        "start" : 1601662567177,
+        "stop" : 1601662587297,
+        "duration" : 20120
+      }
+    }, {
+      "uid" : "227eb76573f21c7c",
+      "status" : "broken",
+      "statusDetails" : "browser.setValue is not a function",
+      "time" : {
+        "start" : 1601662453513,
+        "stop" : 1601662475403,
+        "duration" : 21890
+      }
+    }, {
+      "uid" : "e91aa5c0096da971",
+      "status" : "broken",
+      "statusDetails" : "weatherpage.slider.sendKeys is not a function",
+      "time" : {
+        "start" : 1601662107666,
+        "stop" : 1601662143416,
+        "duration" : 35750
+      }
+    }, {
+      "uid" : "7b603649a8f5bec8",
+      "status" : "broken",
+      "statusDetails" : "weatherpage.slider.movetTo is not a function",
+      "time" : {
+        "start" : 1601660607346,
+        "stop" : 1601660645883,
+        "duration" : 38537
+      }
+    }, {
+      "uid" : "e67e98b2ec6bae7e",
+      "status" : "broken",
+      "statusDetails" : "invalid element state\n                  (Session info: chrome=85.0.4183.121)",
+      "time" : {
+        "start" : 1601660509674,
+        "stop" : 1601660547181,
+        "duration" : 37507
+      }
+    }, {
+      "uid" : "3057ec993aba6176",
+      "status" : "broken",
+      "statusDetails" : "invalid element state\n                  (Session info: chrome=85.0.4183.121)",
+      "time" : {
+        "start" : 1601660335667,
+        "stop" : 1601660368670,
+        "duration" : 33003
+      }
+    }, {
+      "uid" : "e95c52ce580d53a4",
+      "status" : "broken",
+      "statusDetails" : "invalid element state\n                  (Session info: chrome=85.0.4183.121)",
+      "time" : {
+        "start" : 1601660178202,
+        "stop" : 1601660213373,
+        "duration" : 35171
+      }
+    }, {
+      "uid" : "ff32472984f6e3e9",
+      "status" : "broken",
+      "statusDetails" : "invalid element state\n                  (Session info: chrome=85.0.4183.121)",
+      "time" : {
+        "start" : 1601659357516,
+        "stop" : 1601659406081,
+        "duration" : 48565
+      }
+    }, {
+      "uid" : "1c6f84312bc2c438",
+      "status" : "broken",
+      "statusDetails" : "invalid element state\n                  (Session info: chrome=85.0.4183.121)",
+      "time" : {
+        "start" : 1601659272306,
+        "stop" : 1601659310827,
+        "duration" : 38521
+      }
+    }, {
+      "uid" : "e3abc706beac8438",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'setValue' of null",
+      "time" : {
+        "start" : 1601658201570,
+        "stop" : 1601658241042,
+        "duration" : 39472
+      }
+    }, {
+      "uid" : "172844ee175139fc",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'moveTo' of null",
+      "time" : {
+        "start" : 1601658115346,
+        "stop" : 1601658150195,
+        "duration" : 34849
+      }
+    }, {
+      "uid" : "5b94c2c2eb2bc7c4",
+      "status" : "broken",
+      "statusDetails" : "move target out of bounds\n                  (Session info: chrome=85.0.4183.121)",
+      "time" : {
+        "start" : 1601657922437,
+        "stop" : 1601657973163,
+        "duration" : 50726
+      }
+    }, {
+      "uid" : "5a1ebc0b40845308",
+      "status" : "broken",
+      "statusDetails" : "move target out of bounds\n                  (Session info: chrome=85.0.4183.121)",
+      "time" : {
+        "start" : 1601657625997,
+        "stop" : 1601657673415,
+        "duration" : 47418
+      }
+    }, {
+      "uid" : "94fa7a534acc59a6",
+      "status" : "broken",
+      "statusDetails" : "browser.moveToObject is not a function",
+      "time" : {
+        "start" : 1601657219737,
+        "stop" : 1601657253076,
+        "duration" : 33339
+      }
+    }, {
+      "uid" : "ed0b0198ab52b5ae",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Home Page It Launch domain url and verify title and the header of 3protofile text\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (C:\\Users\\hp\\Pictures\\Automation Assesment\\node_modules\\.bin\\test\\specs\\e2e.js)",
+      "time" : {
+        "start" : 1601656966258,
+        "stop" : 1601657026284,
+        "duration" : 60026
+      }
+    }, {
+      "uid" : "663a754ff21b4390",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <div class=\"col-md-3\">...</div> is not clickable at point (245, 10). Other element would receive the click: <a class=\"navbar-brand page-scroll top-smart-logo\" href=\"/\">...</a>\n                  (Session info: chrome=85.0.4183.121)",
+      "time" : {
+        "start" : 1601656848227,
+        "stop" : 1601656895476,
+        "duration" : 47249
+      }
+    }, {
+      "uid" : "9eaedbd5e0ef7b76",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Home Page It Launch domain url and verify title and the header of 3protofile text\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (C:\\Users\\hp\\Pictures\\Automation Assesment\\node_modules\\.bin\\test\\specs\\e2e.js)",
+      "time" : {
+        "start" : 1601656766310,
+        "stop" : 1601656826335,
+        "duration" : 60025
+      }
+    }, {
+      "uid" : "f36d7e6cbddc3c8c",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Home Page It Launch domain url and verify title and the header of 3protofile text\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (C:\\Users\\hp\\Pictures\\Automation Assesment\\node_modules\\.bin\\test\\specs\\e2e.js)",
+      "time" : {
+        "start" : 1601656688522,
+        "stop" : 1601656748548,
+        "duration" : 60026
+      }
+    }, {
+      "uid" : "d9aeb20918fc3d40",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Home Page It Launch domain url and verify title and the header of 3protofile text\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (C:\\Users\\hp\\Pictures\\Automation Assesment\\node_modules\\.bin\\test\\specs\\e2e.js)",
+      "time" : {
+        "start" : 1601656586451,
+        "stop" : 1601656646472,
+        "duration" : 60021
+      }
+    }, {
+      "uid" : "de2864caa14cccee",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <div class=\"col-md-3\">...</div> is not clickable at point (245, 10). Other element would receive the click: <a class=\"navbar-brand page-scroll top-smart-logo\" href=\"/\">...</a>\n                  (Session info: chrome=85.0.4183.121)",
+      "time" : {
+        "start" : 1601656422263,
+        "stop" : 1601656468233,
+        "duration" : 45970
+      }
+    }, {
+      "uid" : "ece2e703349b6b51",
+      "status" : "broken",
+      "statusDetails" : "browser.moveToObject is not a function",
+      "time" : {
+        "start" : 1601656210881,
+        "stop" : 1601656264997,
+        "duration" : 54116
+      }
+    }, {
+      "uid" : "c4ee3d60f67442ef",
+      "status" : "broken",
+      "statusDetails" : "browser.moveToObject is not a function",
+      "time" : {
+        "start" : 1601656125955,
+        "stop" : 1601656177688,
+        "duration" : 51733
+      }
+    }, {
+      "uid" : "976177ce18ee4154",
+      "status" : "broken",
+      "statusDetails" : "weatherpage.slider.moveToObject is not a function",
+      "time" : {
+        "start" : 1601655992505,
+        "stop" : 1601656051565,
+        "duration" : 59060
+      }
+    }, {
+      "uid" : "caf86a3e3152c9f",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Home Page It Launch domain url and verify title and the header of 3protofile text\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (C:\\Users\\hp\\Pictures\\Automation Assesment\\node_modules\\.bin\\test\\specs\\e2e.js)",
+      "time" : {
+        "start" : 1601655907114,
+        "stop" : 1601655967130,
+        "duration" : 60016
+      }
+    }, {
+      "uid" : "99a28fa6339b077",
+      "status" : "broken",
+      "statusDetails" : "weatherpage.slider.buttonDown is not a function",
+      "time" : {
+        "start" : 1601655556427,
+        "stop" : 1601655584963,
+        "duration" : 28536
+      }
+    }, {
+      "uid" : "c3a5df0f8599db66",
+      "status" : "broken",
+      "statusDetails" : "browser.buttonDown is not a function",
+      "time" : {
+        "start" : 1601655441925,
+        "stop" : 1601655492471,
+        "duration" : 50546
+      }
+    }, {
+      "uid" : "331cd19803be1803",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Home Page It Launch domain url and verify title and the header of 3protofile text\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (C:\\Users\\hp\\Pictures\\Automation Assesment\\node_modules\\.bin\\test\\specs\\e2e.js)",
+      "time" : {
+        "start" : 1601655266636,
+        "stop" : 1601655326651,
+        "duration" : 60015
+      }
+    }, {
+      "uid" : "662970cb82dfbac9",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Home Page It Launch domain url and verify title and the header of 3protofile text\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (C:\\Users\\hp\\Pictures\\Automation Assesment\\node_modules\\.bin\\test\\specs\\e2e.js)",
+      "time" : {
+        "start" : 1601655075782,
+        "stop" : 1601655135798,
+        "duration" : 60016
+      }
+    }, {
+      "uid" : "3eef430000da87a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601654985608,
+        "stop" : 1601655040221,
+        "duration" : 54613
+      }
+    }, {
+      "uid" : "9b0216f7d73a6ac7",
+      "status" : "broken",
+      "statusDetails" : "weatherpage.slidervalue.getValue is not a function",
+      "time" : {
+        "start" : 1601654868238,
+        "stop" : 1601654915388,
+        "duration" : 47150
+      }
+    }, {
+      "uid" : "329e84ccfe927a56",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601654593976,
+        "stop" : 1601654639690,
+        "duration" : 45714
+      }
+    }, {
+      "uid" : "336425d06f2fc3f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601654523544,
+        "stop" : 1601654563918,
+        "duration" : 40374
+      }
+    }, {
+      "uid" : "fb4a3fe872e53c20",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601654447535,
+        "stop" : 1601654499953,
+        "duration" : 52418
+      }
+    }, {
+      "uid" : "502451a47583f2cb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601653640931,
+        "stop" : 1601653693522,
+        "duration" : 52591
+      }
+    }, {
+      "uid" : "e34824f832e72b12",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Home Page It Launch domain url and verify title and the header of 3protofile text\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (C:\\Users\\hp\\Pictures\\Automation Assesment\\node_modules\\.bin\\test\\specs\\e2e.js)",
+      "time" : {
+        "start" : 1601653543143,
+        "stop" : 1601653603164,
+        "duration" : 60021
+      }
+    }, {
+      "uid" : "72709879be15c71a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601653417561,
+        "stop" : 1601653452334,
+        "duration" : 34773
+      }
+    }, {
+      "uid" : "25f8dcf011340863",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Home Page It Launch domain url and verify title and the header of 3protofile text\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (C:\\Users\\hp\\Pictures\\Automation Assesment\\node_modules\\.bin\\test\\specs\\e2e.js)",
+      "time" : {
+        "start" : 1601653344639,
+        "stop" : 1601653404664,
+        "duration" : 60025
+      }
+    }, {
+      "uid" : "b8be75648db2eff3",
+      "status" : "broken",
+      "statusDetails" : "weatherpage.slider.moveBy is not a function",
+      "time" : {
+        "start" : 1601653248610,
+        "stop" : 1601653284088,
+        "duration" : 35478
+      }
+    }, {
+      "uid" : "d7639acc4d193a65",
+      "status" : "broken",
+      "statusDetails" : "invalid element state\n                  (Session info: chrome=85.0.4183.121)",
+      "time" : {
+        "start" : 1601652984088,
+        "stop" : 1601653040214,
+        "duration" : 56126
+      }
+    }, {
+      "uid" : "e878f40f79242ad9",
+      "status" : "broken",
+      "statusDetails" : "invalid element state\n                  (Session info: chrome=85.0.4183.121)",
+      "time" : {
+        "start" : 1601652893167,
+        "stop" : 1601652930384,
+        "duration" : 37217
+      }
+    }, {
+      "uid" : "df72a98d40411119",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Home Page It Launch domain url and verify title and the header of 3protofile text\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (C:\\Users\\hp\\Pictures\\Automation Assesment\\node_modules\\.bin\\test\\specs\\e2e.js)",
+      "time" : {
+        "start" : 1601652778705,
+        "stop" : 1601652838723,
+        "duration" : 60018
+      }
+    }, {
+      "uid" : "2c72afe76b999f37",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Home Page It Launch domain url and verify title and the header of 3protofile text\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (C:\\Users\\hp\\Pictures\\Automation Assesment\\node_modules\\.bin\\test\\specs\\e2e.js)",
+      "time" : {
+        "start" : 1601652575421,
+        "stop" : 1601652635439,
+        "duration" : 60018
+      }
+    }, {
+      "uid" : "7701a1554543bcf8",
+      "status" : "broken",
+      "statusDetails" : "browser.setValue is not a function",
+      "time" : {
+        "start" : 1601652456753,
+        "stop" : 1601652513143,
+        "duration" : 56390
+      }
+    }, {
+      "uid" : "ae65be3b3ad5883b",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'slider' of undefined",
+      "time" : {
+        "start" : 1601652267110,
+        "stop" : 1601652312651,
+        "duration" : 45541
+      }
+    }, {
+      "uid" : "8f31c209b6a235a2",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Home Page It Launch domain url and verify title and the header of 3protofile text\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (C:\\Users\\hp\\Pictures\\Automation Assesment\\node_modules\\.bin\\test\\specs\\e2e.js)",
+      "time" : {
+        "start" : 1601652169737,
+        "stop" : 1601652229756,
+        "duration" : 60019
+      }
+    }, {
+      "uid" : "96ad2c75242b0933",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Home Page It Launch domain url and verify title and the header of 3protofile text\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (C:\\Users\\hp\\Pictures\\Automation Assesment\\node_modules\\.bin\\test\\specs\\e2e.js)",
+      "time" : {
+        "start" : 1601652069383,
+        "stop" : 1601652129405,
+        "duration" : 60022
+      }
+    }, {
+      "uid" : "114b7bf382d17e8e",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Home Page It Launch domain url and verify title and the header of 3protofile text\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (C:\\Users\\hp\\Pictures\\Automation Assesment\\node_modules\\.bin\\test\\specs\\e2e.js)",
+      "time" : {
+        "start" : 1601651977765,
+        "stop" : 1601652037788,
+        "duration" : 60023
+      }
+    }, {
+      "uid" : "909e2dce74d56944",
+      "status" : "broken",
+      "statusDetails" : "invalid element state\n                  (Session info: chrome=85.0.4183.121)",
+      "time" : {
+        "start" : 1601651778424,
+        "stop" : 1601651827295,
+        "duration" : 48871
+      }
+    }, {
+      "uid" : "aac81162f5792ac3",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Home Page It Launch domain url and verify title and the header of 3protofile text\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (C:\\Users\\hp\\Pictures\\Automation Assesment\\node_modules\\.bin\\test\\specs\\e2e.js)",
+      "time" : {
+        "start" : 1601651677593,
+        "stop" : 1601651737613,
+        "duration" : 60020
+      }
+    }, {
+      "uid" : "5967f38084120260",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Home Page It Launch domain url and verify title and the header of 3protofile text\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (C:\\Users\\hp\\Pictures\\Automation Assesment\\node_modules\\.bin\\test\\specs\\e2e.js)",
+      "time" : {
+        "start" : 1601651592155,
+        "stop" : 1601651652173,
+        "duration" : 60018
+      }
+    }, {
+      "uid" : "1f642d6df00ce6e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601651347969,
+        "stop" : 1601651404249,
+        "duration" : 56280
+      }
+    }, {
+      "uid" : "30bb7dd763cbd606",
+      "status" : "broken",
+      "statusDetails" : "invalid element state\n                  (Session info: chrome=85.0.4183.121)",
+      "time" : {
+        "start" : 1601651216642,
+        "stop" : 1601651262350,
+        "duration" : 45708
+      }
+    }, {
+      "uid" : "7f440c020569b90e",
+      "status" : "broken",
+      "statusDetails" : "return$ is not defined",
+      "time" : {
+        "start" : 1601651126183,
+        "stop" : 1601651156228,
+        "duration" : 30045
+      }
+    }, {
+      "uid" : "dbcbbbfd3f9d2542",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Home Page It Launch domain url and verify title and the header of 3protofile text\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (C:\\Users\\hp\\Pictures\\Automation Assesment\\node_modules\\.bin\\test\\specs\\e2e.js)",
+      "time" : {
+        "start" : 1601651015801,
+        "stop" : 1601651075821,
+        "duration" : 60020
+      }
+    }, {
+      "uid" : "f8addd0d6d502f2",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Home Page It Launch domain url and verify title and the header of 3protofile text\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (C:\\Users\\hp\\Pictures\\Automation Assesment\\node_modules\\.bin\\test\\specs\\e2e.js)",
+      "time" : {
+        "start" : 1601650909308,
+        "stop" : 1601650969337,
+        "duration" : 60029
+      }
+    }, {
+      "uid" : "f8a5bb37de7092dd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601650451457,
+        "stop" : 1601650509033,
+        "duration" : 57576
+      }
+    }, {
+      "uid" : "2a409e2660a8c397",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Home Page It Launch domain url and verify title and the header of 3protofile text\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (C:\\Users\\hp\\Pictures\\Automation Assesment\\node_modules\\.bin\\test\\specs\\e2e.js)",
+      "time" : {
+        "start" : 1601649811918,
+        "stop" : 1601649871933,
+        "duration" : 60015
+      }
+    }, {
+      "uid" : "21d30e3e797df9ff",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a data-id=\"1\" class=\"model-portfolio-btn btn btn-dange btn-black btn-md invest pull-right\">...</a> is not clickable at point (956, 20). Other element would receive the click: <a href=\"/faq\">...</a>\n                  (Session info: chrome=85.0.4183.121)",
+      "time" : {
+        "start" : 1601649712925,
+        "stop" : 1601649762947,
+        "duration" : 50022
+      }
+    }, {
+      "uid" : "849ab06e1b45f996",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Home Page It Launch domain url and verify title and the header of 3protofile text\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (C:\\Users\\hp\\Pictures\\Automation Assesment\\node_modules\\.bin\\test\\specs\\e2e.js)",
+      "time" : {
+        "start" : 1601649620092,
+        "stop" : 1601649680111,
+        "duration" : 60019
+      }
+    }, {
+      "uid" : "1a053e26acc0c3a",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'isDisplayedInViewport' of undefined",
+      "time" : {
+        "start" : 1601649553125,
+        "stop" : 1601649598658,
+        "duration" : 45533
+      }
+    }, {
+      "uid" : "60ac590a3ffff24a",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Home Page It Launch domain url and verify title and the header of 3protofile text\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (C:\\Users\\hp\\Pictures\\Automation Assesment\\node_modules\\.bin\\test\\specs\\e2e.js)",
+      "time" : {
+        "start" : 1601649421440,
+        "stop" : 1601649481463,
+        "duration" : 60023
+      }
+    }, {
+      "uid" : "3ac5eb13890ed1bc",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Home Page It Launch domain url and verify title and the header of 3protofile text\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (C:\\Users\\hp\\Pictures\\Automation Assesment\\node_modules\\.bin\\test\\specs\\e2e.js)",
+      "time" : {
+        "start" : 1601649333448,
+        "stop" : 1601649393470,
+        "duration" : 60022
+      }
+    }, {
+      "uid" : "8b7b6b03fea8a296",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Home Page It Launch domain url and verify title and the header of 3protofile text\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (C:\\Users\\hp\\Pictures\\Automation Assesment\\node_modules\\.bin\\test\\specs\\e2e.js)",
+      "time" : {
+        "start" : 1601649220485,
+        "stop" : 1601649280501,
+        "duration" : 60016
+      }
+    }, {
+      "uid" : "dfa8d7325e4d199a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601649118006,
+        "stop" : 1601649175564,
+        "duration" : 57558
+      }
+    }, {
+      "uid" : "783fd831dada8e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601648912632,
+        "stop" : 1601648953269,
+        "duration" : 40637
+      }
+    }, {
+      "uid" : "f61b5a0c114769df",
+      "status" : "broken",
+      "statusDetails" : "weatherpage.validatebuttontext is not a function",
+      "time" : {
+        "start" : 1601648802196,
+        "stop" : 1601648829736,
+        "duration" : 27540
+      }
+    }, {
+      "uid" : "75c3b14ca0344845",
+      "status" : "broken",
+      "statusDetails" : "weatherpage.validatebuttontext is not a function",
+      "time" : {
+        "start" : 1601648726368,
+        "stop" : 1601648753099,
+        "duration" : 26731
+      }
+    }, {
+      "uid" : "799ca5dde25cda47",
+      "status" : "broken",
+      "statusDetails" : "this.custoimze_button_text.getText is not a function",
+      "time" : {
+        "start" : 1601648436715,
+        "stop" : 1601648462474,
+        "duration" : 25759
+      }
+    }, {
+      "uid" : "a905e62d2ada3c17",
+      "status" : "broken",
+      "statusDetails" : "weatherpage.click is not a function",
+      "time" : {
+        "start" : 1601648359566,
+        "stop" : 1601648387008,
+        "duration" : 27442
+      }
+    }, {
+      "uid" : "302b8170a7f08a81",
+      "status" : "broken",
+      "statusDetails" : "this.custoimze_button_text.getText is not a function",
+      "time" : {
+        "start" : 1601648258781,
+        "stop" : 1601648290924,
+        "duration" : 32143
+      }
+    }, {
+      "uid" : "5a79e9282f073bd3",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \"Customize Portfolio\" because element wasn't found",
+      "time" : {
+        "start" : 1601648120392,
+        "stop" : 1601648169801,
+        "duration" : 49409
+      }
+    }, {
+      "uid" : "fb97b3d560d4b6d5",
+      "status" : "broken",
+      "statusDetails" : "this.custoimze_button_text.waitForVisible is not a function",
+      "time" : {
+        "start" : 1601648073877,
+        "stop" : 1601648100117,
+        "duration" : 26240
+      }
+    }, {
+      "uid" : "8c96245f6eba2472",
+      "status" : "broken",
+      "statusDetails" : "custoimze_button_text is not defined",
+      "time" : {
+        "start" : 1601648001374,
+        "stop" : 1601648050712,
+        "duration" : 49338
+      }
+    }, {
+      "uid" : "7cbe30e131279069",
+      "status" : "broken",
+      "statusDetails" : "this.custoimze_button_text.waitForVisible is not a function",
+      "time" : {
+        "start" : 1601647850653,
+        "stop" : 1601647896617,
+        "duration" : 45964
+      }
+    }, {
+      "uid" : "9d5c8200405adc32",
+      "status" : "broken",
+      "statusDetails" : "unknown error: net::ERR_NAME_NOT_RESOLVED\n                  (Session info: chrome=85.0.4183.121)",
+      "time" : {
+        "start" : 1601647670744,
+        "stop" : 1601647672103,
+        "duration" : 1359
+      }
+    }, {
+      "uid" : "bd7a831d93dccdde",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Home Page It Launch domain url and verify title and the header of 3protofile text\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (C:\\Users\\hp\\Pictures\\Automation Assesment\\node_modules\\.bin\\test\\specs\\e2e.js)",
+      "time" : {
+        "start" : 1601647513242,
+        "stop" : 1601647573270,
+        "duration" : 60028
+      }
+    }, {
+      "uid" : "128129b8b6ba53d5",
+      "status" : "broken",
+      "statusDetails" : "no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=85.0.4183.121)",
+      "time" : {
+        "start" : 1601647477352,
+        "stop" : 1601647504654,
+        "duration" : 27302
+      }
+    }, {
+      "uid" : "2352fddd9626e306",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601647135538,
+        "stop" : 1601647149581,
+        "duration" : 14043
+      }
+    }, {
+      "uid" : "c4c44892e361dfe4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601647076230,
+        "stop" : 1601647089811,
+        "duration" : 13581
+      }
+    }, {
+      "uid" : "f9edc74ce6bf50c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601647022800,
+        "stop" : 1601647040274,
+        "duration" : 17474
+      }
+    }, {
+      "uid" : "46280aa848a0cf42",
+      "status" : "broken",
+      "statusDetails" : "homepage is not defined",
+      "time" : {
+        "start" : 1601646948707,
+        "stop" : 1601646963520,
+        "duration" : 14813
+      }
+    }, {
+      "uid" : "5081b9bef415834c",
+      "status" : "broken",
+      "statusDetails" : "homepage is not defined",
+      "time" : {
+        "start" : 1601646649676,
+        "stop" : 1601646688777,
+        "duration" : 39101
+      }
+    }, {
+      "uid" : "f92b666885b7a6df",
+      "status" : "broken",
+      "statusDetails" : "homepage is not defined",
+      "time" : {
+        "start" : 1601646390637,
+        "stop" : 1601646428980,
+        "duration" : 38343
+      }
+    }, {
+      "uid" : "75b60ab672fb9b6a",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Home Page It Launch domain url and verify title and the header of 3protofile text\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (C:\\Users\\hp\\Pictures\\Automation Assesment\\node_modules\\.bin\\test\\specs\\e2e.js)",
+      "time" : {
+        "start" : 1601646314130,
+        "stop" : 1601646374159,
+        "duration" : 60029
+      }
+    }, {
+      "uid" : "235ba1991a02ce26",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601645818629,
+        "stop" : 1601645854563,
+        "duration" : 35934
+      }
+    }, {
+      "uid" : "11d313b5d05071b2",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Home Page It Launch domain url and verify title and the header of 3protofile text\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (C:\\Users\\hp\\Pictures\\Automation Assesment\\node_modules\\.bin\\test\\specs\\e2e.js)",
+      "time" : {
+        "start" : 1601645659377,
+        "stop" : 1601645719401,
+        "duration" : 60024
+      }
+    }, {
+      "uid" : "38f252e04f4d2667",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601645550885,
+        "stop" : 1601645573863,
+        "duration" : 22978
+      }
+    }, {
+      "uid" : "aad252d02da2b8ab",
+      "status" : "broken",
+      "statusDetails" : "hompage.Explore_Investment_ideas_button.isDisplayedInViewport is not a function",
+      "time" : {
+        "start" : 1601645384291,
+        "stop" : 1601645404031,
+        "duration" : 19740
+      }
+    }, {
+      "uid" : "e41f8c98ce2b4fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601645313286,
+        "stop" : 1601645336588,
+        "duration" : 23302
+      }
+    }, {
+      "uid" : "2969d678321d1cdc",
+      "status" : "broken",
+      "statusDetails" : "hompage.Explore_Investment_ideas_button.isDisplayedinViewport is not a function",
+      "time" : {
+        "start" : 1601645262593,
+        "stop" : 1601645279244,
+        "duration" : 16651
+      }
+    }, {
+      "uid" : "8578e1b4c114225d",
+      "status" : "broken",
+      "statusDetails" : "hompage.Explore_Investment_ideas_button is not a function",
+      "time" : {
+        "start" : 1601645224180,
+        "stop" : 1601645235442,
+        "duration" : 11262
+      }
+    }, {
+      "uid" : "29cef225c0d09919",
+      "status" : "failed",
+      "statusDetails" : "expected '' to equal 'WeInvest | Simple, Smart, Transparent Investing'",
+      "time" : {
+        "start" : 1601645132403,
+        "stop" : 1601645134149,
+        "duration" : 1746
+      }
+    }, {
+      "uid" : "26399b05738f76da",
+      "status" : "broken",
+      "statusDetails" : "hompage.open is not a function",
+      "time" : {
+        "start" : 1601645043496,
+        "stop" : 1601645043816,
+        "duration" : 320
+      }
+    }, {
+      "uid" : "fa6fdc9ee0f2dce0",
+      "status" : "broken",
+      "statusDetails" : "hompage.Explore_Investment_ideas_button is not a function",
+      "time" : {
+        "start" : 1601644755941,
+        "stop" : 1601644770603,
+        "duration" : 14662
+      }
+    }, {
+      "uid" : "64069e9fda08d559",
+      "status" : "broken",
+      "statusDetails" : "hompage.Explore_Investment_ideas_button.isDisplayedinViewport is not a function",
+      "time" : {
+        "start" : 1601644700176,
+        "stop" : 1601644716180,
+        "duration" : 16004
+      }
+    }, {
+      "uid" : "a4378933a7c9b16e",
+      "status" : "broken",
+      "statusDetails" : "no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=85.0.4183.121)",
+      "time" : {
+        "start" : 1601644663901,
+        "stop" : 1601644685490,
+        "duration" : 21589
+      }
+    }, {
+      "uid" : "83e02c4cd6c05178",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601643782365,
+        "stop" : 1601643797108,
+        "duration" : 14743
+      }
+    }, {
+      "uid" : "f10862a997e4970c",
+      "status" : "broken",
+      "statusDetails" : "this.Explore_Investment_ideas_button.scroll is not a function",
+      "time" : {
+        "start" : 1601643694168,
+        "stop" : 1601643717684,
+        "duration" : 23516
+      }
+    }, {
+      "uid" : "c3a3de4f8eab94c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601643591181,
+        "stop" : 1601643596644,
+        "duration" : 5463
+      }
+    }, {
+      "uid" : "1ce2df3a913f32e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601643260905,
+        "stop" : 1601643271930,
+        "duration" : 11025
+      }
+    }, {
+      "uid" : "fb678337139e25",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601643171699,
+        "stop" : 1601643183211,
+        "duration" : 11512
+      }
+    }, {
+      "uid" : "d2974f40540c2550",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Home Page It Launch domain url and verify title and the header of 3protofile text\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (C:\\Users\\hp\\Pictures\\Automation Assesment\\node_modules\\.bin\\test\\specs\\example.e2e.js)",
+      "time" : {
+        "start" : 1601643085379,
+        "stop" : 1601643145405,
+        "duration" : 60026
+      }
+    }, {
+      "uid" : "4829a0ca6972f1c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601642927174,
+        "stop" : 1601642941344,
+        "duration" : 14170
+      }
+    }, {
+      "uid" : "e36d596d74773f3a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601642846911,
+        "stop" : 1601642857888,
+        "duration" : 10977
+      }
+    }, {
+      "uid" : "d1b80ad7ee407b44",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601201528869,
+        "stop" : 1601201551575,
+        "duration" : 22706
+      }
+    }, {
+      "uid" : "8ba35855cfd4951b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601201421729,
+        "stop" : 1601201444827,
+        "duration" : 23098
+      }
+    }, {
+      "uid" : "710744a85cbb121",
+      "status" : "broken",
+      "statusDetails" : "homepage is not defined",
+      "time" : {
+        "start" : 1601201355806,
+        "stop" : 1601201380205,
+        "duration" : 24399
+      }
+    }, {
+      "uid" : "152f6938185441e",
+      "status" : "broken",
+      "statusDetails" : "homepage is not defined",
+      "time" : {
+        "start" : 1601201308222,
+        "stop" : 1601201332571,
+        "duration" : 24349
+      }
+    }, {
+      "uid" : "2fa1f40abb33bce5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601200929609,
+        "stop" : 1601200953434,
+        "duration" : 23825
+      }
+    }, {
+      "uid" : "ad4ef58ebf209cea",
+      "status" : "broken",
+      "statusDetails" : "this.imagecontainer is not a function",
+      "time" : {
+        "start" : 1601200871166,
+        "stop" : 1601200895516,
+        "duration" : 24350
+      }
+    }, {
+      "uid" : "29db5a155dac4a32",
+      "status" : "broken",
+      "statusDetails" : "return$ is not defined",
+      "time" : {
+        "start" : 1601200816415,
+        "stop" : 1601200840449,
+        "duration" : 24034
+      }
+    }, {
+      "uid" : "7a01318c53688ce2",
+      "status" : "broken",
+      "statusDetails" : "this.getprotofileheadertext.getimageText is not a function",
+      "time" : {
+        "start" : 1601200727217,
+        "stop" : 1601200750666,
+        "duration" : 23449
+      }
+    }, {
+      "uid" : "8ad141600aca04a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601200504373,
+        "stop" : 1601200527066,
+        "duration" : 22693
+      }
+    }, {
+      "uid" : "285e92ad65f309cb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601200381548,
+        "stop" : 1601200405154,
+        "duration" : 23606
+      }
+    }, {
+      "uid" : "27014d7ea9c6405e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601200163932,
+        "stop" : 1601200187367,
+        "duration" : 23435
+      }
+    }, {
+      "uid" : "21994fc45630f10b",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'be' of undefined",
+      "time" : {
+        "start" : 1601200031255,
+        "stop" : 1601200055639,
+        "duration" : 24384
+      }
+    }, {
+      "uid" : "694e91626c63a00a",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'equal' of undefined",
+      "time" : {
+        "start" : 1601199640719,
+        "stop" : 1601199664537,
+        "duration" : 23818
+      }
+    }, {
+      "uid" : "de84946e6e9455f1",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'equal' of undefined",
+      "time" : {
+        "start" : 1601199535435,
+        "stop" : 1601199559111,
+        "duration" : 23676
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5639cf3bcc175747.json",
+  "parameterValues" : [ "chrome-85.0.4183.121" ]
+}

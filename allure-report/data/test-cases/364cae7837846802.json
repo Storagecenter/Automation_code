@@ -1,0 +1,160 @@
+{
+  "uid" : "364cae7837846802",
+  "name" : "should login with valid credentials",
+  "fullName" : "My Login application.should login with valid credentials",
+  "historyId" : "2331dff7006a6d7f41269074dc578687",
+  "time" : {
+    "start" : 1601196594699,
+    "stop" : 1601196618674,
+    "duration" : 23975
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Wrong parameters applied for getElementText\n                Usage: getElementText(elementId)\n                \n                Property Description:\n                  \"elementId\" (string): the id of an element returned in a previous call to Find Element(s)\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-get-element-text\n                ",
+  "statusTrace" : "Error: Wrong parameters applied for getElementText\n                Usage: getElementText(elementId)\n                Property Description:\n                  \"elementId\" (string): the id of an element returned in a previous call to Find Element(s)\n                For more info see https://w3c.github.io/webdriver/#dfn-get-element-text\n                    at Element.protocolCommand (C:\\Users\\hp\\Pictures\\Automation Assesment\\node_modules\\webdriver\\build\\command.js:39:13)\n                    at Element.wrapCommandFn (C:\\Users\\hp\\Pictures\\Automation Assesment\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:54:17)\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\hp\\Pictures\\Automation Assesment\\node_modules\\webdriverio\\build\\middlewares.js:24:57)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at async Element.runCommandWithHooks (C:\\Users\\hp\\Pictures\\Automation Assesment\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:88:21)\n                    at Element.runCommandWithHooks (C:\\Users\\hp\\Pictures\\Automation Assesment\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:82:22)\n                    at Element.wrapCommandFn (C:\\Users\\hp\\Pictures\\Automation Assesment\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:59:40)\n                    at Element.elementErrorHandlerCallback (C:\\Users\\hp\\Pictures\\Automation Assesment\\node_modules\\webdriverio\\build\\middlewares.js:43:8)\n                    at LoginPage.getallprotofoil (C:\\Users\\hp\\Pictures\\Automation Assesment\\node_modules\\.bin\\test\\pageobjects\\home.page.js:32:22)\n                    at Context.<anonymous> (C:\\Users\\hp\\Pictures\\Automation Assesment\\node_modules\\.bin\\test\\specs\\example.e2e.js:9:13)\n                    at Context.executeSync (C:\\Users\\hp\\Pictures\\Automation Assesment\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\hp\\Pictures\\Automation Assesment\\node_modules\\@wdio\\sync\\build\\index.js:80:70",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Wrong parameters applied for getElementText\n                Usage: getElementText(elementId)\n                \n                Property Description:\n                  \"elementId\" (string): the id of an element returned in a previous call to Find Element(s)\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-get-element-text\n                ",
+    "statusTrace" : "Error: Wrong parameters applied for getElementText\n                Usage: getElementText(elementId)\n                Property Description:\n                  \"elementId\" (string): the id of an element returned in a previous call to Find Element(s)\n                For more info see https://w3c.github.io/webdriver/#dfn-get-element-text\n                    at Element.protocolCommand (C:\\Users\\hp\\Pictures\\Automation Assesment\\node_modules\\webdriver\\build\\command.js:39:13)\n                    at Element.wrapCommandFn (C:\\Users\\hp\\Pictures\\Automation Assesment\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:54:17)\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\hp\\Pictures\\Automation Assesment\\node_modules\\webdriverio\\build\\middlewares.js:24:57)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at async Element.runCommandWithHooks (C:\\Users\\hp\\Pictures\\Automation Assesment\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:88:21)\n                    at Element.runCommandWithHooks (C:\\Users\\hp\\Pictures\\Automation Assesment\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:82:22)\n                    at Element.wrapCommandFn (C:\\Users\\hp\\Pictures\\Automation Assesment\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:59:40)\n                    at Element.elementErrorHandlerCallback (C:\\Users\\hp\\Pictures\\Automation Assesment\\node_modules\\webdriverio\\build\\middlewares.js:43:8)\n                    at LoginPage.getallprotofoil (C:\\Users\\hp\\Pictures\\Automation Assesment\\node_modules\\.bin\\test\\pageobjects\\home.page.js:32:22)\n                    at Context.<anonymous> (C:\\Users\\hp\\Pictures\\Automation Assesment\\node_modules\\.bin\\test\\specs\\example.e2e.js:9:13)\n                    at Context.executeSync (C:\\Users\\hp\\Pictures\\Automation Assesment\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\hp\\Pictures\\Automation Assesment\\node_modules\\@wdio\\sync\\build\\index.js:80:70",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1601196594705,
+        "stop" : 1601196617816,
+        "duration" : 23111
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c52e73a50d3360df",
+        "name" : "Request",
+        "source" : "c52e73a50d3360df.json",
+        "type" : "application/json",
+        "size" : 61
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1601196617818,
+        "stop" : 1601196617996,
+        "duration" : 178
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "483fee31f0b1167c",
+        "name" : "Response",
+        "source" : "483fee31f0b1167c.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1601196618000,
+        "stop" : 1601196618062,
+        "duration" : 62
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "91a2fcc8ab9b15b3",
+        "name" : "Request",
+        "source" : "91a2fcc8ab9b15b3.json",
+        "type" : "application/json",
+        "size" : 90
+      }, {
+        "uid" : "d0967b10fef7b248",
+        "name" : "Response",
+        "source" : "d0967b10fef7b248.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1601196618081,
+        "stop" : 1601196618671,
+        "duration" : 590
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a278a891e8ff9531",
+        "name" : "Screenshot",
+        "source" : "a278a891e8ff9531.png",
+        "type" : "image/png",
+        "size" : 380650
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My Login application"
+  }, {
+    "name" : "testClass",
+    "value" : "My Login application"
+  }, {
+    "name" : "testMethod",
+    "value" : "should login with valid credentials"
+  }, {
+    "name" : "package",
+    "value" : "My Login application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-85.0.4183.121"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "364cae7837846802.json",
+  "parameterValues" : [ "chrome-85.0.4183.121" ]
+}

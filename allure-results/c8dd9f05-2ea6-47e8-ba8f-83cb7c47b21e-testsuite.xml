@@ -1,0 +1,104 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1601644700175' stop='1601644716181'>
+    <name>Home Page</name>
+    <title>Home Page</title>
+    <test-cases>
+        <test-case start='1601644700176' status='broken' stop='1601644716180'>
+            <name>It Launch domain url and verify title and the header of 3protofile text</name>
+            <title>It Launch domain url and verify title and the header of 3protofile text</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-85.0.4183.121'/>
+            </parameters>
+            <steps>
+                <step start='1601644700193' status='passed' stop='1601644715248'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='dd758648-5f94-4cd3-b180-c207be04d1d5-attachment.json' type='application/json' size='61'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1601644715250' status='passed' stop='1601644715391'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='c853d6cc-d7cc-4c5c-840f-eb70b0cffbe4-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1601644715391' status='passed' stop='1601644715422'>
+                    <name>GET /session/:sessionId/title</name>
+                    <title>GET /session/:sessionId/title</title>
+                    <attachments>
+                        <attachment title='Response' source='94494f40-70f7-4152-8a8a-4a825faa203b-attachment.json' type='application/json' size='49'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1601644715430' status='passed' stop='1601644715474'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='38922486-7db8-4db4-8dcb-a4a71e60043b-attachment.json' type='application/json' size='66'/>
+                        <attachment title='Response' source='1fd18880-1205-4b41-beb1-2b72d59cd080-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1601644715490' status='passed' stop='1601644715534'>
+                    <name>GET /session/:sessionId/element/5a57b66f-7157-40fa-ad6b-551c62c184c3/text</name>
+                    <title>GET /session/:sessionId/element/5a57b66f-7157-40fa-ad6b-551c62c184c3/text</title>
+                    <attachments>
+                        <attachment title='Response' source='626aa4f4-9907-4c05-9cb3-73e842433a4c-attachment.json' type='application/json' size='55'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1601644715535' status='passed' stop='1601644715572'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='15b01375-24bd-4a61-af58-3a3442f39df0-attachment.json' type='application/json' size='108'/>
+                        <attachment title='Response' source='48fb2573-1e7b-4888-a0e4-e4cc8cc8754a-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1601644715576' status='passed' stop='1601644715610'>
+                    <name>GET /session/:sessionId/element/13d6ad7f-6e50-41ef-b813-b0bf6d01275e/text</name>
+                    <title>GET /session/:sessionId/element/13d6ad7f-6e50-41ef-b813-b0bf6d01275e/text</title>
+                    <attachments>
+                        <attachment title='Response' source='674bb538-f308-4a73-b076-c5c56055a89e-attachment.json' type='application/json' size='22'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1601644715611' status='passed' stop='1601644715641'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='ae3f8fd1-85a5-4ddc-b5cf-019d305d96d9-attachment.json' type='application/json' size='61'/>
+                        <attachment title='Response' source='03e1f32c-f6a6-4c3d-850c-69cd360a5de7-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1601644715648' status='passed' stop='1601644716177'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='7c57ccdd-3410-445d-ab47-22550da20942-attachment.png' type='image/png' size='379820'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>hompage.Explore_Investment_ideas_button.isDisplayedinViewport is not a function</message>
+                <stack-trace>TypeError: hompage.Explore_Investment_ideas_button.isDisplayedinViewport is not a function
+                    at Context.&lt;anonymous> (C:\Users\hp\Pictures\Automation Assesment\node_modules\.bin\test\specs\example.e2e.js:17:74)
+                    at Context.executeSync (C:\Users\hp\Pictures\Automation Assesment\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\hp\Pictures\Automation Assesment\node_modules\@wdio\sync\build\index.js:80:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

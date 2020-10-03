@@ -1,0 +1,82 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1601196594699' stop='1601196618676'>
+    <name>My Login application</name>
+    <title>My Login application</title>
+    <test-cases>
+        <test-case start='1601196594699' status='broken' stop='1601196618674'>
+            <name>should login with valid credentials</name>
+            <title>should login with valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-85.0.4183.121'/>
+            </parameters>
+            <steps>
+                <step start='1601196594705' status='passed' stop='1601196617816'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='a5b142c8-4515-406d-9fd8-4e18ffae3166-attachment.json' type='application/json' size='61'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1601196617818' status='passed' stop='1601196617996'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='61237d74-6e6a-4b7d-9087-ab9900466df2-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1601196618000' status='passed' stop='1601196618062'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='51670919-1f9c-4324-bfb2-21d222a780d8-attachment.json' type='application/json' size='90'/>
+                        <attachment title='Response' source='1dd35304-30ff-4514-84b6-936965bd6a47-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1601196618081' status='passed' stop='1601196618671'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='4f7c27cf-177b-4e69-af72-161bef686ac8-attachment.png' type='image/png' size='380650'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Wrong parameters applied for getElementText
+                Usage: getElementText(elementId)
+                
+                Property Description:
+                  "elementId" (string): the id of an element returned in a previous call to Find Element(s)
+                
+                For more info see https://w3c.github.io/webdriver/#dfn-get-element-text
+                </message>
+                <stack-trace>Error: Wrong parameters applied for getElementText
+                Usage: getElementText(elementId)
+                Property Description:
+                  "elementId" (string): the id of an element returned in a previous call to Find Element(s)
+                For more info see https://w3c.github.io/webdriver/#dfn-get-element-text
+                    at Element.protocolCommand (C:\Users\hp\Pictures\Automation Assesment\node_modules\webdriver\build\command.js:39:13)
+                    at Element.wrapCommandFn (C:\Users\hp\Pictures\Automation Assesment\node_modules\@wdio\sync\build\wrapCommand.js:54:17)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\hp\Pictures\Automation Assesment\node_modules\webdriverio\build\middlewares.js:24:57)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                    at async Element.runCommandWithHooks (C:\Users\hp\Pictures\Automation Assesment\node_modules\@wdio\sync\build\wrapCommand.js:88:21)
+                    at Element.runCommandWithHooks (C:\Users\hp\Pictures\Automation Assesment\node_modules\@wdio\sync\build\wrapCommand.js:82:22)
+                    at Element.wrapCommandFn (C:\Users\hp\Pictures\Automation Assesment\node_modules\@wdio\sync\build\wrapCommand.js:59:40)
+                    at Element.elementErrorHandlerCallback (C:\Users\hp\Pictures\Automation Assesment\node_modules\webdriverio\build\middlewares.js:43:8)
+                    at LoginPage.getallprotofoil (C:\Users\hp\Pictures\Automation Assesment\node_modules\.bin\test\pageobjects\home.page.js:32:22)
+                    at Context.&lt;anonymous> (C:\Users\hp\Pictures\Automation Assesment\node_modules\.bin\test\specs\example.e2e.js:9:13)
+                    at Context.executeSync (C:\Users\hp\Pictures\Automation Assesment\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\hp\Pictures\Automation Assesment\node_modules\@wdio\sync\build\index.js:80:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

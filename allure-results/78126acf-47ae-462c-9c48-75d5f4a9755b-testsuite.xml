@@ -1,0 +1,80 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1601200816414' stop='1601200840450'>
+    <name>Home Page</name>
+    <title>Home Page</title>
+    <test-cases>
+        <test-case start='1601200816415' status='broken' stop='1601200840449'>
+            <name>It Launch domain url and verify title and the header of 3protofile text</name>
+            <title>It Launch domain url and verify title and the header of 3protofile text</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-85.0.4183.121'/>
+            </parameters>
+            <steps>
+                <step start='1601200816431' status='passed' stop='1601200839582'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='a6866409-3130-468f-bba5-befca8c174cb-attachment.json' type='application/json' size='61'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1601200839584' status='passed' stop='1601200839716'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='fe0c15d5-8bb9-4aaf-ae85-8452b757494b-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1601200839717' status='passed' stop='1601200839730'>
+                    <name>GET /session/:sessionId/title</name>
+                    <title>GET /session/:sessionId/title</title>
+                    <attachments>
+                        <attachment title='Response' source='032af87d-8fd0-417d-bf45-5fb70d428d23-attachment.json' type='application/json' size='49'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1601200839733' status='passed' stop='1601200839769'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='f0c2bbdf-5d76-4214-a3e5-ed7867eb9c56-attachment.json' type='application/json' size='66'/>
+                        <attachment title='Response' source='201a2394-e519-485a-a62d-909d1b8e5246-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1601200839785' status='passed' stop='1601200839824'>
+                    <name>GET /session/:sessionId/element/b1c9ed2c-42e5-47ed-84ce-4cb2293c78c1/text</name>
+                    <title>GET /session/:sessionId/element/b1c9ed2c-42e5-47ed-84ce-4cb2293c78c1/text</title>
+                    <attachments>
+                        <attachment title='Response' source='36cc6726-11ca-4679-8463-cef908521471-attachment.json' type='application/json' size='55'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1601200839829' status='passed' stop='1601200840447'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='866e57a3-06cd-4e31-8976-098564bb6ca9-attachment.png' type='image/png' size='380650'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>return$ is not defined</message>
+                <stack-trace>ReferenceError: return$ is not defined
+                    at LoginPage.get imagecontainer [as imagecontainer] (C:\Users\hp\Pictures\Automation Assesment\node_modules\.bin\test\pageobjects\home.page.js:29:5)
+                    at LoginPage.getimageText (C:\Users\hp\Pictures\Automation Assesment\node_modules\.bin\test\pageobjects\home.page.js:40:25)
+                    at Context.&lt;anonymous> (C:\Users\hp\Pictures\Automation Assesment\node_modules\.bin\test\specs\example.e2e.js:14:17)
+                    at Context.executeSync (C:\Users\hp\Pictures\Automation Assesment\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\hp\Pictures\Automation Assesment\node_modules\@wdio\sync\build\index.js:80:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,142 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1601711416304' stop='1601711438807'>
+    <name>Home Page</name>
+    <title>Home Page</title>
+    <test-cases>
+        <test-case start='1601711416304' status='broken' stop='1601711438806'>
+            <name>It Launch domain url and verify title and the header of 3protofile text</name>
+            <title>It Launch domain url and verify title and the header of 3protofile text</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-85.0.4183.121'/>
+            </parameters>
+            <steps>
+                <step start='1601711416320' status='passed' stop='1601711437555'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='cc2dabf3-dea3-4e36-94a4-2d50438a714c-attachment.json' type='application/json' size='61'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1601711437556' status='passed' stop='1601711437748'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='d5424b67-3c70-4307-a6bd-fe10f017928d-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1601711437749' status='passed' stop='1601711437765'>
+                    <name>GET /session/:sessionId/title</name>
+                    <title>GET /session/:sessionId/title</title>
+                    <attachments>
+                        <attachment title='Response' source='99acaaff-83f9-4983-b3f5-de3f67168abc-attachment.json' type='application/json' size='49'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1601711437770' status='passed' stop='1601711437814'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='a5c38e80-cdfe-47e7-87b6-ab001ef29d7b-attachment.json' type='application/json' size='66'/>
+                        <attachment title='Response' source='f78e5bd0-8ee0-4f87-bbe4-106981137bcc-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1601711437827' status='passed' stop='1601711437859'>
+                    <name>GET /session/:sessionId/element/8d947724-9967-4f6f-8c65-88d68f859f3e/text</name>
+                    <title>GET /session/:sessionId/element/8d947724-9967-4f6f-8c65-88d68f859f3e/text</title>
+                    <attachments>
+                        <attachment title='Response' source='071de775-b38f-422c-a648-d42c34a82b31-attachment.json' type='application/json' size='55'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1601711437860' status='passed' stop='1601711437898'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='8eec32f3-0161-477f-a455-2d87a35ea5ea-attachment.json' type='application/json' size='108'/>
+                        <attachment title='Response' source='f52b27b6-4dda-4b4b-a764-65be49f052fc-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1601711437903' status='passed' stop='1601711437938'>
+                    <name>GET /session/:sessionId/element/2b7a4107-dadc-4864-bd46-f333d9574888/text</name>
+                    <title>GET /session/:sessionId/element/2b7a4107-dadc-4864-bd46-f333d9574888/text</title>
+                    <attachments>
+                        <attachment title='Response' source='deeacb95-e9f4-454f-9c0a-4bf7ab08e7ac-attachment.json' type='application/json' size='22'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1601711437939' status='passed' stop='1601711437967'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='75833c36-5cb5-40ac-837c-0bd42347474b-attachment.json' type='application/json' size='61'/>
+                        <attachment title='Response' source='419b474c-1814-4745-95d7-d42e68ace32e-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1601711437975' status='passed' stop='1601711438006'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='0ed3e04c-e63a-4010-8056-10494cc86a8f-attachment.json' type='application/json' size='5306'/>
+                        <attachment title='Response' source='f830bb7b-0ab8-4c1d-9042-548acd8f324f-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1601711438006' status='passed' stop='1601711438024'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='b8fe1f5b-b831-4ead-9a15-580ba1f2d620-attachment.json' type='application/json' size='726'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1601711438024' status='broken' stop='1601711438806'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='d0a93cc4-b3b4-445c-81ee-98aaadd7b9ef-attachment.json' type='application/json' size='59'/>
+                    </attachments>
+                    <steps>
+                        <step start='1601711438137' status='passed' stop='1601711438804'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments>
+                                <attachment title='Screenshot' source='da8801dd-c42d-4bd8-8ed0-1f4d9fbe1cae-attachment.png' type='image/png' size='379820'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>invalid selector: Unable to locate an element with the xpath expression //a[@data-toggle='tab' because of the following error:
+                SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//a[@data-toggle='tab'' is not a valid XPath expression.
+                  (Session info: chrome=85.0.4183.121)</message>
+                <stack-trace>invalid selector: Unable to locate an element with the xpath expression //a[@data-toggle='tab' because of the following error:
+                SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//a[@data-toggle='tab'' is not a valid XPath expression.
+                  (Session info: chrome=85.0.4183.121)
+                    at getErrorFromResponseBody (C:\Users\hp\Pictures\Automation Assesment\node_modules\webdriver\build\utils.js:121:10)
+                    at WebDriverRequest._request (C:\Users\hp\Pictures\Automation Assesment\node_modules\webdriver\build\request.js:149:56)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                    at async Browser.$ (C:\Users\hp\Pictures\Automation Assesment\node_modules\webdriverio\build\commands\browser\$.js:19:15)
+                    at async Browser.runCommandWithHooks (C:\Users\hp\Pictures\Automation Assesment\node_modules\@wdio\sync\build\wrapCommand.js:88:21)
+                    at Browser.runCommandWithHooks (C:\Users\hp\Pictures\Automation Assesment\node_modules\@wdio\sync\build\wrapCommand.js:82:22)
+                    at Browser.wrapCommandFn (C:\Users\hp\Pictures\Automation Assesment\node_modules\@wdio\sync\build\wrapCommand.js:59:40)
+                    at global.$ (C:\Users\hp\Pictures\Automation Assesment\node_modules\@wdio\runner\build\index.js:187:36)
+                    at Context.&lt;anonymous> (C:\Users\hp\Pictures\Automation Assesment\node_modules\.bin\test\specs\scenario3.js:17:16)
+                    at Context.executeSync (C:\Users\hp\Pictures\Automation Assesment\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\hp\Pictures\Automation Assesment\node_modules\@wdio\sync\build\index.js:80:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

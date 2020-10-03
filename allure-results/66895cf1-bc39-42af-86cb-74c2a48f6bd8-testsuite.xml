@@ -1,0 +1,130 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1601712251557' stop='1601712282310'>
+    <name>Home Page</name>
+    <title>Home Page</title>
+    <test-cases>
+        <test-case start='1601712251558' status='broken' stop='1601712282308'>
+            <name>It Launch domain url and verify title and the header of 3protofile text</name>
+            <title>It Launch domain url and verify title and the header of 3protofile text</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-85.0.4183.121'/>
+            </parameters>
+            <steps>
+                <step start='1601712251573' status='passed' stop='1601712281351'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='7d5e3fd7-5922-4750-b4f1-35458839102e-attachment.json' type='application/json' size='61'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1601712281352' status='passed' stop='1601712281478'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='04bc451d-4edb-4f77-8e49-6d32a691a6f2-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1601712281479' status='passed' stop='1601712281502'>
+                    <name>GET /session/:sessionId/title</name>
+                    <title>GET /session/:sessionId/title</title>
+                    <attachments>
+                        <attachment title='Response' source='53cb23d4-6312-4fe8-a202-d415a240143b-attachment.json' type='application/json' size='49'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1601712281510' status='passed' stop='1601712281543'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='42fd5ca2-51a7-4d17-9b22-2754594c57a7-attachment.json' type='application/json' size='66'/>
+                        <attachment title='Response' source='4b7eab19-ef0c-4096-bd1a-4045a5da2c39-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1601712281556' status='passed' stop='1601712281589'>
+                    <name>GET /session/:sessionId/element/e0c9f110-9f82-4876-893b-c838b5c37268/text</name>
+                    <title>GET /session/:sessionId/element/e0c9f110-9f82-4876-893b-c838b5c37268/text</title>
+                    <attachments>
+                        <attachment title='Response' source='d3b42b9d-9895-4125-93ed-b71b1ac6b4ee-attachment.json' type='application/json' size='55'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1601712281590' status='passed' stop='1601712281624'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='19b2d97e-2da1-41b3-94be-f534c8a8ea6a-attachment.json' type='application/json' size='108'/>
+                        <attachment title='Response' source='a90fc3c1-4cfe-4305-a27a-9061d981bc8d-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1601712281629' status='passed' stop='1601712281653'>
+                    <name>GET /session/:sessionId/element/f1f040de-ad2f-40da-850a-52998aea4f7b/text</name>
+                    <title>GET /session/:sessionId/element/f1f040de-ad2f-40da-850a-52998aea4f7b/text</title>
+                    <attachments>
+                        <attachment title='Response' source='0fb348fe-360f-4b9b-b70b-8eb791fb1cb7-attachment.json' type='application/json' size='22'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1601712281654' status='passed' stop='1601712281680'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='88b09f40-d059-451b-8ca1-976403f8b9b9-attachment.json' type='application/json' size='61'/>
+                        <attachment title='Response' source='04acf0c0-ac0c-47b7-a98c-adb3380bd89e-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1601712281688' status='passed' stop='1601712281714'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='3346ae42-0e9e-4faf-87d6-df32e7f9dcc9-attachment.json' type='application/json' size='5306'/>
+                        <attachment title='Response' source='3a6f139c-3330-44db-972e-8d79507e7c5c-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1601712281714' status='passed' stop='1601712281731'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='01523716-a7a9-4928-b3c8-bd637edb50a5-attachment.json' type='application/json' size='726'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1601712281731' status='passed' stop='1601712281760'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='54fdb471-d96e-4d78-bbda-8cd705f2524f-attachment.json' type='application/json' size='60'/>
+                        <attachment title='Response' source='9741238f-61b9-4158-963d-9bc1b00c20b6-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1601712281776' status='passed' stop='1601712282304'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='6d0dbc30-f696-4609-b620-f4d038f39ea8-attachment.png' type='image/png' size='379820'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read property '$$' of undefined</message>
+                <stack-trace>TypeError: Cannot read property '$$' of undefined
+                    at Context.&lt;anonymous> (C:\Users\hp\Pictures\Automation Assesment\node_modules\.bin\test\specs\scenario3.js:18:23)
+                    at Context.executeSync (C:\Users\hp\Pictures\Automation Assesment\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\hp\Pictures\Automation Assesment\node_modules\@wdio\sync\build\index.js:80:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
